@@ -2,3 +2,7 @@
 .bannerimage{
     background-image: url("../images/pharma/hero_1.jpg");
 }
+
+.bg-image {
+    background-image: url("../images/pharma/bg_2.jpg");
+}
