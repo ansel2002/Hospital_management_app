@@ -3,6 +3,7 @@ from .import views
 from .views import about
 
 urlpatterns = [
-    path('',about,name="about"),
+    path('',about,name="dashboard"),
+    path('about',about,name="about"),
 ]
 
