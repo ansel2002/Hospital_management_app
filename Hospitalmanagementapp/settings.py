@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "ManagementApp",
     "Pharmacy",
+    "Doctor",
 ]
 
 MIDDLEWARE = [
