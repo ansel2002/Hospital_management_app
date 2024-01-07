@@ -10,3 +10,7 @@ def cart(request):
 
 def home(request):
     return render(request, "Pharmacy/home.html", context={})
+
+def contact(request):
+    return render(request, "Pharmacy/contact.html", context={})
+

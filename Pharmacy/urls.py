@@ -1,11 +1,13 @@
 from django.urls import path,include
 from .import views
-from .views import about,cart,home
+
+
 
 urlpatterns = [
-    path('',about,name="dashboard"),
-    path('about',about,name="about"),
-    path('cart',cart,name="cart"),
-    path('home',home,name="home"),
+    path('',views.about,name="dashboard"),
+    path('about',views.about,name="about"),
+    path('cart',views.cart,name="cart"),
+    path('home',views.home,name="home"),
+    path('contact',views.contact,name="contact"),
 ]
 
