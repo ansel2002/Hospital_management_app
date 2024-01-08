@@ -14,3 +14,12 @@ def home(request):
 def contact(request):
     return render(request, "Pharmacy/contact.html", context={})
 
+def store(request):
+    return render(request, "Pharmacy/store.html", context={})
+
+def shop(request):
+    return render(request, "Pharmacy/shop-single.html", context={})
+
+def checkout(request):
+    return render(request, "Pharmacy/checkout.html", context={})
+
