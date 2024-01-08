@@ -14,7 +14,19 @@ def home(request):
 def contact(request):
     return render(request, "Pharmacy/contact.html", context={})
 
+<<<<<<< HEAD
 
 def logintoapp(request):
     
     return render(request)
+=======
+def store(request):
+    return render(request, "Pharmacy/store.html", context={})
+
+def shop(request):
+    return render(request, "Pharmacy/shop-single.html", context={})
+
+def checkout(request):
+    return render(request, "Pharmacy/checkout.html", context={})
+
+>>>>>>> d6b2f2edd87ed67e7351f96613f8ffbaa93aa142
