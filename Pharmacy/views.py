@@ -14,3 +14,7 @@ def home(request):
 def contact(request):
     return render(request, "Pharmacy/contact.html", context={})
 
+
+def logintoapp(request):
+    
+    return render(request)
