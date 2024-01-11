@@ -14,3 +14,12 @@ def contact(request):
 
 def blog(request):
     return render(request,"Doctor/blog.html",context={})
+
+def blogdetails(request):
+    return render(request,"Doctor/blog-details.html",context={})
+
+def about(request):
+    return render(request,"Doctor/about.html",context={})
+
+def Login(request):
+    return render(request,"Doctor/login.html",context={})
