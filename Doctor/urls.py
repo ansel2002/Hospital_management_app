@@ -10,4 +10,6 @@ urlpatterns = [
     path("blog-details", views.blogdetails, name="blogdetails"),
     path("about", views.about, name="aboutus"),
     path("Login", views.Login, name="login"),
+    path("Logout",views.Logout,name="logout")
+    
 ]
