@@ -17,6 +17,9 @@ def contact(request):
 def thankyou(request):
     return render(request, "Pharmacy/thankyou.html", context={})
 
+def product(request):
+    return render(request, "Pharmacy/product_table.html", context={})
+
 def logintoapp(request):
     
     return render(request)
