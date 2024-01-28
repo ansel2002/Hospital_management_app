@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "ManagementApp",
     "Pharmacy",
     "Doctor",
+    "Patient"
 ]
 
 MIDDLEWARE = [
@@ -131,3 +132,8 @@ MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+LOGIN_REDIRECT_URL='/authentication'
+
+LOG_PATH=os.path.join(BASE_DIR,'logs')
+import pyotp
+OTP = pyotp.TOTP(os.getenv('OTP_KEY'))
