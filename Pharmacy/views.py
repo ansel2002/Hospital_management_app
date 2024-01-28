@@ -19,7 +19,7 @@ def thankyou(request):
     return render(request, "Pharmacy/thankyou.html", context={})
 
 
-def product(request):
+def addProduct(request):
     return render(request, "Pharmacy/product_table.html", context={})
 
 
@@ -36,8 +36,8 @@ def shop(request):
 def checkout(request):
     return render(request, "Pharmacy/checkout.html", context={})
 
-# def updateStore(request):
-#     return render(request, "Pharmacy/updateStore.html", context={})
+def updateStore(request):
+    return render(request, "Pharmacy/updateStore.html", context={})
 # def addItem(request, product_id):
 #     return(request,)
 
@@ -51,8 +51,8 @@ def checkout(request):
 #     obj= addItem(product_id=id)
 #     obj.Qnty=Qnty-1
 
-def addProduct(request):
-    if request.method=="POST":
+def catelogue(request):
+    if request.method=="POST" or "FILES":
         product_id=request.POST.get('product_id')
         product_name=request.POST.get('product_name')
         description=request.POST.get('description')
@@ -67,7 +67,7 @@ def addProduct(request):
             status = True
         product_details=Store(product_id=product_id,product_name=product_name,description=description,price=price,quantity=quantity,image=image,expiry_date=expiry_date,provider_status=status,medication_route=route)
         product_details.save()
-        return redirect('addProduct')
+        return redirect('catelogue')
     
     product_details=Store.objects.all()
     return render(request,'pharmacy\\updateStore.html', {'product_details':product_details})
