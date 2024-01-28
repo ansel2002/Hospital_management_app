@@ -14,6 +14,10 @@ from django.db.models import Q
 import logging
 import os
 
+def patient_login_view(request):
+    return render(request, 'patientlogin.html')
+
+
 def is_admin(user):
     return user.groups.filter(name='ADMIN').exists()
 def is_doctor(user):
