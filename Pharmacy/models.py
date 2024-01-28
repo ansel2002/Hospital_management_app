@@ -10,7 +10,6 @@ class Store(models.Model):
     image = models.ImageField(upload_to='product_images/')
     expiry_date = models.DateField(blank=False)
     provider_status = models.BooleanField(blank=True)
-    latex_free_status = models.BooleanField(blank=True)  
     medication_route = models.TextField(blank=False,max_length=20)  
 
     def __str__(self):

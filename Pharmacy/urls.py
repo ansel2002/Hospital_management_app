@@ -12,10 +12,12 @@ urlpatterns = [
     path('contact',views.contact,name="contact"),
     path('product',views.product,name="product"),
     path('store',views.store,name="store"),
+    # path('updateStore',views.updateStore,name="updateStore"),
     path('shop-single',views.shop,name="shop"),
     path('checkout',views.checkout,name="checkout"),
-    path('addItem',views.addItem,name='addItem'),
-    path('removeItem',views.removeQnty,name='remove'),
-    path('addQnty',views.addQnty,name='addQnty'),
+    path('addProduct',views.addProduct,name="addProduct"),
+    # path('addItem',views.addItem,name='addItem'),
+    # path('removeItem',views.removeQnty,name='remove'),
+    # path('addQnty',views.addQnty,name='addQnty'),
 ]
 
