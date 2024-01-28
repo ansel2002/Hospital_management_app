@@ -14,20 +14,14 @@ def home(request):
 def contact(request):
     return render(request, "Pharmacy/contact.html", context={})
 
-<<<<<<< HEAD
-=======
 def thankyou(request):
     return render(request, "Pharmacy/thankyou.html", context={})
 
->>>>>>> ed88edbd53316a93b858096890b7d21610237d3a
 
 def logintoapp(request):
     
     return render(request)
-<<<<<<< HEAD
-=======
 
->>>>>>> ed88edbd53316a93b858096890b7d21610237d3a
 def store(request):
     return render(request, "Pharmacy/store.html", context={})
 
@@ -37,8 +31,6 @@ def shop(request):
 def checkout(request):
     return render(request, "Pharmacy/checkout.html", context={})
 
-<<<<<<< HEAD
-=======
 def addItem(request, product_id):
     return(request,)
 
@@ -53,4 +45,3 @@ def removeQnty(request, product_id,currentQnty):
     obj.Qnty=Qnty-1
 
 
->>>>>>> ed88edbd53316a93b858096890b7d21610237d3a

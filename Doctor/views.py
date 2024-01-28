@@ -1,6 +1,8 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
+from django.contrib.auth.forms import UserCreationForm
+from .forms import RegisterUserForm
 
 
 # Create your views here.
@@ -37,13 +39,35 @@ def Login(request):
             login(request, user)
             return redirect("home")
         else:
-            messages.success(request, ("there was error logging in !!!!! . please try againn"))
+            messages.success(
+                request, ("there was error logging in !!!!! . please try againn")
+            )
             return redirect("login")
 
     else:
         return render(request, "Doctor/login.html", context={})
 
+
 def Logout(request):
     logout(request)
     messages.success(request, ("You were logged out !!!!"))
-    return redirect('home')
+    return redirect("home")
+
+
+def Register(request):
+    if request.method == "POST":
+        form = RegisterUserForm(request.POST)
+        if form.is_valid():
+            form.save()
+            username = form.cleaned_data["Username"]
+            passsword = form.cleaned_data["Password"]
+            user = authenticate(username=username, passsword=passsword)
+            login(request, user)
+            messages.success(request, ("Registration is succesfull"))
+            return redirect("home")
+    else:
+         form = RegisterUserForm()
+    
+    return render(request,"Doctor/login.html",{
+            "form": form,
+            })
