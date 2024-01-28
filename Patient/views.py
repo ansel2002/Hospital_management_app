@@ -3,7 +3,7 @@ import requests
 from django.shortcuts import render,redirect,reverse
 from django.contrib import messages
 from Hospitalmanagementapp.settings import LOG_PATH
-from . import forms,models
+from .import forms, models
 from django.contrib.auth.models import Group
 from django.http import HttpResponseRedirect
 from django.core.mail import send_mail
@@ -11,7 +11,6 @@ from django.contrib.auth.decorators import login_required,user_passes_test
 from datetime import datetime,date
 from django.conf import settings
 from django.db.models import Q
-
 import logging
 import os
 
