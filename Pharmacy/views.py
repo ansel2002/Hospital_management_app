@@ -14,15 +14,12 @@ def home(request):
 def contact(request):
     return render(request, "Pharmacy/contact.html", context={})
 
-
 def thankyou(request):
     return render(request, "Pharmacy/thankyou.html", context={})
 
 
 def product(request):
     return render(request, "Pharmacy/product_table.html", context={})
-
-
 def logintoapp(request):
     
     return render(request)
@@ -35,7 +32,6 @@ def shop(request):
 
 def checkout(request):
     return render(request, "Pharmacy/checkout.html", context={})
-
 
 def addItem(request, product_id):
     return(request,)
