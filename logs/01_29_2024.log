@@ -123,3 +123,4 @@ AttributeError: module 'Admin.forms' has no attribute 'ContactusForm'
 2024-01-29 10:02:29,222 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Patient\views.py changed, reloading.
 2024-01-29 10:02:43,270 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Patient\views.py changed, reloading.
 2024-01-29 10:07:13,221 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Doctor\views.py changed, reloading.
+2024-01-29 10:29:04,391 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Patient\urls.py changed, reloading.
