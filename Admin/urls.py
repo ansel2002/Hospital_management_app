@@ -1,27 +1,13 @@
 from django.contrib import admin
 from django.urls import path
 from Admin import views
-from django.contrib.auth.views import LoginView,LogoutView
-
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('',views.home_view,name=''),
-
-    path('aboutus', views.aboutus_view),
-    path('contactus', views.contactus_view),
-
-
+    path('',views.home_view),
     path('adminclick', views.adminclick_view),
     path('patientclick', views.patientclick_view),  
     path('adminsignup', views.admin_signup_view),
     path('patientsignup', views.patient_signup_view),
-    path('doctorsignup', views.doctor_signup_view,name='doctorsignup'),
-
-    path('adminlogin', LoginView.as_view(template_name='Admin/adminlogin.html')),
-    path('doctorlogin', LoginView.as_view(template_name='Doctor/doctorlogin.html')),
-    path('patientlogin', LoginView.as_view(template_name='patient/patientlogin.html')),
-
     path('admin-dashboard', views.admin_dashboard_view,name='admin-dashboard'),
     path('admin-doctor', views.admin_doctor_view,name='admin-doctor'),
     path('admin-view-doctor', views.admin_view_doctor_view,name='admin-view-doctor'),

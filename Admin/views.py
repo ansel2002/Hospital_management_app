@@ -635,3 +635,19 @@ def reject_appointment_view(request,pk):
     except Exception as e:
         logging.error("error in reject-appointment-view,error is {}".format) 
         return redirect('admin-approve-appointment')
+    
+
+def homeaboutus(request):
+    return render(request,'Admin/about_us.html')
+
+def contactus(request):
+    sub = forms.ContactusForm()
+    if request.method == 'POST':
+        sub = forms.ContactusForm(request.POST)
+        if sub.is_valid():
+            email = sub.cleaned_data['Email']
+            name=sub.cleaned_data['Name']
+            message = sub.cleaned_data['Message']
+            send_mail(str(name)+' || '+str(email),message,settings.EMAIL_HOST_USER, settings.EMAIL_RECEIVING_USER, fail_silently = False)
+            return render(request, 'Admin/contactussuccess.html')
+    return render(request, 'Admin/contactus.html', {'form':sub})
