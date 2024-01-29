@@ -3,7 +3,8 @@ import requests
 from django.shortcuts import render,redirect,reverse
 from django.contrib import messages
 from Hospitalmanagementapp.settings import LOG_PATH
-from .import forms, models
+from .import forms
+from Admin import models
 from django.contrib.auth.models import Group
 from django.http import HttpResponseRedirect
 from django.core.mail import send_mail
@@ -16,6 +17,10 @@ import os
 
 def patient_login_view(request):
     return render(request, 'patientlogin.html')
+
+def patient_home(request):
+    return render(request, 'patient/patient_home.html')
+
 
 
 def is_admin(user):
@@ -223,7 +228,7 @@ def patient_discharge_view(request):
         'paid':dischargeDetails.total - dischargeDetails.remaining,
         'remaining': dischargeDetails.remaining,
         }
-    return render(request,'hospital/patient_discharge.html',context=patientDict)
+    return render(request,'patient/patient_discharge.html',context=patientDict)
 
 
 @login_required(login_url='patientlogin')
