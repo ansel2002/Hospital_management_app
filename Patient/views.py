@@ -2,17 +2,14 @@ import uuid
 import requests
 from django.shortcuts import render,redirect,reverse
 from django.contrib import messages
-from Hospitalmanagementapp.settings import LOG_PATH
 from .import forms
 from Admin import models
 from django.contrib.auth.models import Group
 from django.http import HttpResponseRedirect
 from django.core.mail import send_mail
-from django.contrib.auth.decorators import login_required,user_passes_test
 from datetime import datetime,date
 from django.conf import settings
 from django.db.models import Q
-import logging
 import os
 
 
@@ -163,26 +160,4 @@ def patient_discharge_view(request):
         }
     return render(request,'patient/patient_discharge.html',context=patientDict)
 
-
-def update_patient_patient_view(request,pk):
-    patient=models.Patient.objects.get(id=pk)
-    user=models.User.objects.get(id=patient.user_id)
-
-    userForm=forms.PatientUserForm(instance=user)
-    patientForm=forms.PatientForm(request.FILES,instance=patient)
-    mydict={'userForm':userForm,'patientForm':patientForm, 'patient': patient}
-    if request.method=='POST':
-        userForm=forms.PatientUserForm(request.POST,instance=user)
-        patientForm=forms.PatientForm(request.POST,request.FILES,instance=patient)
-        if userForm.is_valid() and patientForm.is_valid():
-            user=userForm.save()
-            user.set_password(user.password)
-            user.save()
-            patient=patientForm.save(commit=False)
-            patient.status=True
-            patient.assignedDoctorId=request.POST.get('assignedDoctorId')
-            patient.save()
-            return redirect('patient-dashboard')
-    # return render(request,'Admin/admin_update_patient.html',context=mydict)
-    return render(request,'Admin/patient_update_patient.html',context=mydict)
 

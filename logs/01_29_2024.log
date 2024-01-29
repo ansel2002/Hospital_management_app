@@ -123,4 +123,27 @@ AttributeError: module 'Admin.forms' has no attribute 'ContactusForm'
 2024-01-29 10:02:29,222 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Patient\views.py changed, reloading.
 2024-01-29 10:02:43,270 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Patient\views.py changed, reloading.
 2024-01-29 10:07:13,221 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Doctor\views.py changed, reloading.
+<<<<<<< HEAD
 2024-01-29 10:29:04,391 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Patient\urls.py changed, reloading.
+=======
+2024-01-29 10:26:38,134 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Patient\urls.py changed, reloading.
+2024-01-29 10:27:40,689 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Patient\views.py changed, reloading.
+2024-01-29 10:29:13,386 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Patient\urls.py changed, reloading.
+2024-01-29 10:29:21,330 Not Found: /favicon.ico
+2024-01-29 10:30:50,025 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Patient\urls.py changed, reloading.
+2024-01-29 10:31:59,771 Not Found: /assets/img/bg-doctor.png
+2024-01-29 10:31:59,775 Not Found: /assets/img/doctors/doctor_1.jpg
+2024-01-29 10:31:59,796 Not Found: /assets/img/doctors/doctor_2.jpg
+2024-01-29 10:31:59,804 Not Found: /assets/img/doctors/doctor_3.jpg
+2024-01-29 10:31:59,858 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-29 10:31:59,863 Not Found: /assets/img/person/person_1.jpg
+2024-01-29 10:31:59,867 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-29 10:32:00,052 Not Found: /assets/img/person/person_2.jpg
+2024-01-29 10:32:00,052 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-29 10:32:00,076 Not Found: /assets/img/mobile_app.png
+2024-01-29 10:32:00,080 Not Found: /assets/img/google_play.svg
+2024-01-29 10:32:00,149 Not Found: /assets/img/app_store.svg
+2024-01-29 10:32:00,153 Not Found: /assets/img/banner-pattern.svg
+2024-01-29 10:32:11,231 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Patient\urls.py changed, reloading.
+>>>>>>> 5efe576f1238db1fcacced1563973f99a5ad3ebb
+2024-01-29 10:37:41,026 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Patient\urls.py changed, reloading.
