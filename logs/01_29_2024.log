@@ -5,3 +5,120 @@
 2024-01-29 09:38:37,737 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Doctor\models.py changed, reloading.
 2024-01-29 09:38:38,378 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Doctor\models.py changed, reloading.
 2024-01-29 09:42:20,464 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Patient\forms.py changed, reloading.
+2024-01-29 09:42:36,079 Internal Server Error: /ContactUs
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Admin\views.py", line 644, in contactus
+    sub = forms.ContactusForm()
+          ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'Admin.forms' has no attribute 'ContactusForm'
+2024-01-29 09:42:58,570 Internal Server Error: /ContactUs
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Admin\views.py", line 644, in contactus
+    sub = forms.ContactusForm()
+          ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'Admin.forms' has no attribute 'ContactusForm'
+2024-01-29 09:43:08,136 Not Found: /assets/img/bg-doctor.png
+2024-01-29 09:43:08,140 Not Found: /assets/img/doctors/doctor_1.jpg
+2024-01-29 09:43:08,253 Not Found: /assets/img/doctors/doctor_2.jpg
+2024-01-29 09:43:08,261 Not Found: /assets/img/doctors/doctor_3.jpg
+2024-01-29 09:43:08,273 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-29 09:43:08,285 Not Found: /assets/img/person/person_1.jpg
+2024-01-29 09:43:08,293 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-29 09:43:08,293 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-29 09:43:08,309 Not Found: /assets/img/person/person_2.jpg
+2024-01-29 09:43:08,322 Not Found: /assets/img/mobile_app.png
+2024-01-29 09:43:08,341 Not Found: /assets/img/google_play.svg
+2024-01-29 09:43:08,353 Not Found: /assets/img/app_store.svg
+2024-01-29 09:43:08,357 Not Found: /assets/img/bg_image_1.jpg
+2024-01-29 09:43:08,361 Not Found: /assets/img/banner-pattern.svg
+2024-01-29 09:44:36,627 Not Found: /assets/img/bg-doctor.png
+2024-01-29 09:44:36,627 Not Found: /assets/img/doctors/doctor_1.jpg
+2024-01-29 09:44:36,707 Not Found: /assets/img/doctors/doctor_3.jpg
+2024-01-29 09:44:36,716 Not Found: /assets/img/doctors/doctor_2.jpg
+2024-01-29 09:44:36,728 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-29 09:44:36,733 Not Found: /assets/img/person/person_1.jpg
+2024-01-29 09:44:36,758 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-29 09:44:36,762 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-29 09:44:36,787 Not Found: /assets/img/bg_image_1.jpg
+2024-01-29 09:44:36,791 Not Found: /assets/img/person/person_2.jpg
+2024-01-29 09:44:36,799 Not Found: /assets/img/mobile_app.png
+2024-01-29 09:44:36,808 Not Found: /assets/img/google_play.svg
+2024-01-29 09:44:36,812 Not Found: /assets/img/app_store.svg
+2024-01-29 09:44:36,816 Not Found: /assets/img/banner-pattern.svg
+2024-01-29 09:46:25,516 Internal Server Error: /Patient/patient-home
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Patient\views.py", line 22, in patient_home
+    return render(request, 'patient/patient_home.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 122, in get_parent
+    raise TemplateSyntaxError(error_msg)
+django.template.exceptions.TemplateSyntaxError: Invalid template name in 'extends' tag: ''. Got this from the 'patient_base.html' variable.
+2024-01-29 09:49:03,305 Not Found: /patientclick
+2024-01-29 09:51:28,699 Not Found: /patientclick
+2024-01-29 09:58:53,453 Internal Server Error: /ContactUs
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Admin\views.py", line 644, in contactus
+    sub = forms.ContactusForm()
+          ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'Admin.forms' has no attribute 'ContactusForm'
+2024-01-29 09:59:32,926 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Patient\views.py changed, reloading.
+2024-01-29 09:59:39,513 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Patient\views.py changed, reloading.
+2024-01-29 09:59:45,383 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Patient\views.py changed, reloading.
+2024-01-29 09:59:51,864 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Patient\views.py changed, reloading.
+2024-01-29 09:59:58,521 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Patient\views.py changed, reloading.
+2024-01-29 10:00:03,465 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Patient\views.py changed, reloading.
+2024-01-29 10:00:08,203 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Patient\views.py changed, reloading.
+2024-01-29 10:02:20,447 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Patient\views.py changed, reloading.
+2024-01-29 10:02:29,222 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Patient\views.py changed, reloading.
+2024-01-29 10:02:43,270 E:\PG DATA SCIENCE\2nd Trimester\Web Development\Hospital_management_app\Patient\views.py changed, reloading.
