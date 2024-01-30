@@ -1,6 +1,6 @@
 from django import forms
 from django.contrib.auth.models import User
-from . import models
+from Admin import models
 
 # For patient related form
 class PatientUserForm(forms.ModelForm):

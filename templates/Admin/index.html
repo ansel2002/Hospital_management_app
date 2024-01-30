@@ -1,12 +1,24 @@
-{% extends 'Admin/homebase.html' %}
 {% load static %}
 
 
 
-{% block content %}
+<body>
+{% include "Admin/navbar.html" %}
+{%block content%}
+
+{%endblock content%}
+{% include "Admin/footer.html" %}
+</body>
 
 
 <head>
+    <meta charset="utf-8">
+    <title>HMS - Django</title>
+
+
+
+
+
   <style media="screen">
     .jumbotron {
       margin-top: 0px;
@@ -46,6 +58,10 @@
         text-shadow: 0 0 20px #eeeeee, 0 0 30px #fa2d2d, 0 0 40px #fa2d2d, 0 0 50px #fa2d2d, 0 0 60px #fa2d2d, 0 0 70px #fa2d2d, 0 0 80px #fa2d2d;
       }
     }
+    .jumbotron{
+      background-image:url("../static/images/pharma/back.jpg")
+
+    }
   </style>
 </head>
 <br>
@@ -66,7 +82,6 @@
 
 <br><br><br><br>
 
-
 <br><br><br>
 
 <!-- Start of ChatBot (www.chatbot.com) code -->
@@ -81,4 +96,3 @@
 </script>
 <!-- End of ChatBot code -->
 
-{% endblock content %}

@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     "ManagementApp",
     "Pharmacy",
     "Doctor",
-    "Patient"
+    "Patient",
+    "widget_tweaks",
+    "Admin"
 ]
 
 MIDDLEWARE = [

@@ -22,8 +22,6 @@ def thankyou(request):
 
 def addProduct(request):
     return render(request, "Pharmacy/product_table.html", context={})
-
-
 def logintoapp(request):
     
     return render(request)
@@ -41,6 +39,8 @@ def updateStore(request):
     return render(request, "Pharmacy/updateStore.html", context={})
 # def addItem(request, product_id):
 #     return(request,)
+def addItem(request, product_id):
+    return(request,)
 
 
 # def addQnty(request,product_id):

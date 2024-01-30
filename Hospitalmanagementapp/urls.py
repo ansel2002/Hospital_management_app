@@ -20,15 +20,17 @@ from django.urls import path, include
 from ManagementApp.views import index
 
 from Hospitalmanagementapp import settings
+from Admin import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", index, name="home"),
-    path("pharmacy/", include("Pharmacy.urls")),
+    path("Pharmacy/", include("Pharmacy.urls")),
     path("Doctor/", include("Doctor.urls")),
      path("Doctor/", include("django.contrib.auth.urls")),
     path("Patient/",include("Patient.urls")),
-
+    path('AboutUs', views.homeaboutus,name='home-about'),
+    path('ContactUs', views.contactus,name='ContactUs'),
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
