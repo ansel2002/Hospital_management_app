@@ -1,5 +1,8 @@
 from django.db import models
-from django.contrib.auth.models import User
+from django.db import models
 
 
-# Create your models here.
+class Doctor():
+    Username = models.CharField(max_length=50, blank=True)
+    Email = models.CharField(max_length=50, blank=True)
+    password = models.CharField(max_length=50, blank=True)

@@ -13,10 +13,7 @@ from Patient import views
 #---------FOR PATIENT RELATED URLS-------------------------------------
 
 urlpatterns = [
-    path('patient-login', views.patient_login_view, name='patient-login'),
-    path('patient-home', views.patient_home, name='patient-home'),
-    path('patient-click', views.patientclick_view,name='patient-click'),
-    path('patient_login_view', views.patient_login_view, name='patient-login'),
+    
     path('patient-home', views.patient_home, name='patient-home'),
     path('patient-dashboard', views.patient_dashboard_view,name='patient-dashboard'),
     path('patient-appointment', views.patient_appointment_view,name='patient-appointment'),
