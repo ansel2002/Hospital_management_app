@@ -1,6 +1,7 @@
 from django.shortcuts import render,redirect
 from Pharmacy.models import Store
 
+
 # Create your views here.
 
 def about(request):
@@ -9,7 +10,7 @@ def about(request):
 def cart(request):
     return render(request, "Pharmacy/cart.html", context={})
 
-def home(request):
+def homePage(request):
     return render(request, "Pharmacy/home.html", context={})
 
 def contact(request):
@@ -47,12 +48,9 @@ def updateStore(request):
 #     obj.Qnty=Qnty+1
 #     return(request,)
 
-# def removeQnty(request, product_id,currentQnty):
-#     obj= addItem(product_id=id)
-#     obj.Qnty=Qnty-1
 
 def catelogue(request):
-    if request.method=="POST" or "FILES":
+    if request.method=="POST":
         product_id=request.POST.get('product_id')
         product_name=request.POST.get('product_name')
         description=request.POST.get('description')
@@ -65,6 +63,7 @@ def catelogue(request):
         status = False
         if provider == "True":
             status = True
+        print(product_name,'-------')
         product_details=Store(product_id=product_id,product_name=product_name,description=description,price=price,quantity=quantity,image=image,expiry_date=expiry_date,provider_status=status,medication_route=route)
         product_details.save()
         return redirect('catelogue')
@@ -72,8 +71,17 @@ def catelogue(request):
     product_details=Store.objects.all()
     return render(request,'pharmacy\\updateStore.html', {'product_details':product_details})
 
-# def addToStore(request):
+def deleteProduct(request,id):
+        product = Store.objects.get(product_id=id)
+        product.delete()
+        return redirect('catelogue')
 
+def editProduct(request,id):
+    product = Store.objects.get(product_id=id)
+    return render(request,'Pharmacy\\editProduct.html',{'product':product})
+
+    
+    
 
     
 

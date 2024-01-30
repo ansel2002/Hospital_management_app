@@ -64,6 +64,7 @@
   <div
     style="width: 100%;height: 100%;background-position:center ;background-repeat: no-repeat;background-size: cover;background-image: url('{% static '/images/pharma/hero_1.jpg' %}');">
     <form method="POST" action="{% url 'catelogue'%}" enctype="multipart/form-data">
+      <input action="" method="POST">
       {% csrf_token %}
       <table border="3" cellpadding="8">
         <tbody>
@@ -129,7 +130,7 @@
             <td colspan="2" align="center">
               <div class="row">
                 <div class="col-md-6 mb-3 mb-md-0">
-                  <button class="btn btn-primary btn-md btn-block" type="submit">Add Product</button>
+                  <button class="btn btn-primary btn-md btn-block" type="submit">Update</button>
                 </div>
                 <div class="col-md-6">
                   <button class="btn btn-outline-primary btn-md btn-block" type="reset">Cancel</button>
