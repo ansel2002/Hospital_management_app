@@ -1,2 +1,6 @@
 db.sqlite3
 ManagementApp/migrations/
+
+media/product_images/
+Pharmacy/migrations/
+Pharmacy/__pycache__/

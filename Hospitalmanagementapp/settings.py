@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     "Pharmacy",
     "Doctor",
     "Patient",
-    "widget_tweaks",
+    # "widget_tweaks",
     "Admin"
 ]
 
@@ -137,5 +137,5 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 LOGIN_REDIRECT_URL='/authentication'
 
 LOG_PATH=os.path.join(BASE_DIR,'logs')
-import pyotp
-OTP = pyotp.TOTP(os.getenv('OTP_KEY'))
+# import pyotp
+# OTP = pyotp.TOTP(os.getenv('OTP_KEY'))

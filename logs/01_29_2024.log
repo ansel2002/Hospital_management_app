@@ -562,3 +562,17 @@ django.template.exceptions.TemplateDoesNotExist: registration/login.html
 2024-01-29 12:29:00,903 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\models.py changed, reloading.
 2024-01-29 12:29:09,796 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\models.py changed, reloading.
 2024-01-29 12:29:15,659 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\models.py changed, reloading.
+2024-01-29 12:29:34,890 Not Found: /assets/img/bg-doctor.png
+2024-01-29 12:29:34,894 Not Found: /assets/img/doctors/doctor_1.jpg
+2024-01-29 12:29:35,199 Not Found: /assets/img/doctors/doctor_2.jpg
+2024-01-29 12:29:35,203 Not Found: /assets/img/doctors/doctor_3.jpg
+2024-01-29 12:29:35,274 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-29 12:29:35,282 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-29 12:29:35,290 Not Found: /assets/img/person/person_2.jpg
+2024-01-29 12:29:35,302 Not Found: /assets/img/person/person_1.jpg
+2024-01-29 12:29:35,306 Not Found: /assets/img/mobile_app.png
+2024-01-29 12:29:35,306 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-29 12:29:35,334 Not Found: /assets/img/google_play.svg
+2024-01-29 12:29:35,378 Not Found: /assets/img/app_store.svg
+2024-01-29 12:29:35,386 Not Found: /assets/img/doctors/doctor_3.jpg
+2024-01-29 12:29:35,394 Not Found: /assets/img/banner-pattern.svg

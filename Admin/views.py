@@ -1,6 +1,6 @@
 from django.shortcuts import render
 import uuid
-import requests
+#import requests
 from django.shortcuts import render,redirect,reverse
 from django.contrib import messages
 from Hospitalmanagementapp.settings import LOG_PATH
@@ -522,7 +522,7 @@ def discharge_patient_view(request,pk):
 
 
 import io
-from xhtml2pdf import pisa
+#from xhtml2pdf import pisa
 from django.template.loader import get_template
 from django.template import Context
 from django.http import HttpResponse

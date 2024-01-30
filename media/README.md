@@ -1,0 +1,1 @@
+Media folder - stores user upoloaded images and files
