@@ -1,0 +1,40 @@
+{% extends "base.html" %} {% load static %} {% block extrahead %}
+
+<link rel="stylesheet" href="{% static 'd_static/css/maicons.css' %}" />
+<link rel="stylesheet" href="{% static 'd_static/css/bootstrap.css' %}" />
+<link
+  rel="stylesheet"
+  href="{% static '/d_static/vendor/owl-carousel/css/owl.carousel.css' %}"
+/>
+<link
+  rel="stylesheet"
+  href="{% static '/d_static/vendor/animate/animate.css' %}"
+/>
+
+<link rel="stylesheet" href="{% static '/d_static/css/theme.css' %}" />
+
+{% endblock extrahead %} {% block content %}
+<h1>Doctor Dashboard</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Patient Name</th>
+      <th>Appointment Date</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for appointment in appointments %}
+    <tr>
+      <td>{{ appointment.patient_name }}</td>
+      <td>{{ appointment.appointment_date }}</td>
+      <td><a href="">View Details</a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<a href="{% url 'ADD_appointment' %}">Add Appointment</a>
+
+{% endblock content %}

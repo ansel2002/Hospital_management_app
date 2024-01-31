@@ -1,0 +1,33 @@
+{% extends "base.html" %} {% load static %} {% block extrahead %}
+
+<link rel="stylesheet" href="{% static 'd_static/css/maicons.css' %}" />
+<link rel="stylesheet" href="{% static 'd_static/css/bootstrap.css' %}" />
+<link
+  rel="stylesheet"
+  href="{% static '/d_static/vendor/owl-carousel/css/owl.carousel.css' %}"
+/>
+<link
+  rel="stylesheet"
+  href="{% static '/d_static/vendor/animate/animate.css' %}"
+/>
+
+<link rel="stylesheet" href="{% static '/d_static/css/theme.css' %}" />
+
+{% endblock extrahead %} {% block content %}
+
+<h2>Add Appointment</h2>
+
+<form method="post" action="{% url 'ADD_appointment' %}">
+  {% csrf_token %}
+  <label for="patient_name">Patient Name:</label>
+  <input type="text" id="patient_name" name="patient_name" required />
+
+  <label for="appointment_date">Appointment Date:</label>
+  <input type="date" id="appointment_date" name="appointment_date" required />
+
+  <br /><br />
+
+  <button type="submit">Save Appointment</button>
+</form>
+
+{% endblock content %}
