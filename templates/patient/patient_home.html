@@ -27,19 +27,18 @@
   <meta name="theme-name" content="novena" />
 
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="{% static '/images/favicon.png' %}" />
 
   <!-- 
   Essential stylesheets
   =====================================-->
-  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="plugins/icofont/icofont.min.css">
-  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
-  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+  <link rel="stylesheet" href="{% static 'plugins/bootstrap/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'plugins/icofont/icofont.min.css' %}">
+  <link rel="stylesheet" href="{% static 'plugins/slick-carousel/slick/slick.css' %}">
+  <link rel="stylesheet" href="{% static 'plugins/slick-carousel/slick/slick-theme.css' %}">
 
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="css/Style1.css">
-
+  <link rel="stylesheet" href="{% static 'css/Style1.css' %}">
 </head>
 
 <body id="top">
@@ -68,7 +67,7 @@
 	<nav class="navbar navbar-expand-lg navigation" id="navbar">
 		<div class="container">
 			<a class="navbar-brand" href="index.html">
-				<img src="images/logo.png" alt="" class="img-fluid">
+				<img src="{% static 'images/logo.png' %}" alt="" class="img-fluid">
 			</a>
 
 			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain"
@@ -81,8 +80,6 @@
 					<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
 					<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
 					<li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
-					<li class="nav-item"><a class="nav-link" href="service.html">Patient</a></li>
-          <li class="nav-item"><a class="nav-link" href="service.html">Contact</a></li>
           <li class="nav-item"><a class="nav-link" href="service.html">Dashboard</a></li>
           <li class="nav-item"><a class="nav-link" href="service.html">View Doctor</a></li>
           <li class="nav-item dropdown">
@@ -93,30 +90,7 @@
 							<li><a class="dropdown-item" href="blog-single.html">View Appointment</a></li>
 						</ul>
 					</li>
-
 					<li class="nav-item"><a class="nav-link" href="service.html">Pharmacy</a></li>
-
-
-
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="doctor.html" id="dropdown03" data-toggle="dropdown"
-							aria-haspopup="true" aria-expanded="false">Doctors <i class="icofont-thin-down"></i></a>
-						<ul class="dropdown-menu" aria-labelledby="dropdown03">
-							<li><a class="dropdown-item" href="doctor.html">Doctors</a></li>
-							<li><a class="dropdown-item" href="doctor-single.html">Doctor Single</a></li>
-							<li><a class="dropdown-item" href="appoinment.html">Appoinment</a></li>
-
-							<li class="dropdown dropdown-submenu dropleft">
-								<a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0501" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-			
-								<ul class="dropdown-menu" aria-labelledby="dropdown0501">
-									<li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
-									<li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-
 					<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 				</ul>
 			</div>
@@ -192,13 +166,13 @@
 		<div class="row align-items-center">
 			<div class="col-lg-4 col-sm-6">
 				<div class="about-img">
-					<img src="images/about/img-1.jpg" alt="" class="img-fluid">
-					<img src="images/about/img-2.jpg" alt="" class="img-fluid mt-4">
+					<img src="{% static 'images/about/img-1.jpg' %}" alt="" class="img-fluid">
+					<img src="{% static 'images/about/img-2.jpg' %}" alt="" class="img-fluid mt-4">
 				</div>
 			</div>
 			<div class="col-lg-4 col-sm-6">
 				<div class="about-img mt-4 mt-lg-0">
-					<img src="images/about/img-3.jpg" alt="" class="img-fluid">
+					<img src="{% static 'images/about/img-3.jpg' %}" alt="" class="img-fluid">
 				</div>
 			</div>
 			<div class="col-lg-4">

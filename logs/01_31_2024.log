@@ -733,3 +733,237 @@ django.db.utils.IntegrityError: UNIQUE constraint failed: auth_user.username
 2024-01-31 19:48:15,775 Not Found: /Patient/plugins/shuffle/shuffle.min.js
 2024-01-31 19:48:15,778 Not Found: /Patient/plugins/google-map/gmap.js
 2024-01-31 19:48:15,782 Not Found: /Patient/js/script.js
+2024-01-31 19:56:30,279 Not Found: /Patient/plugins/bootstrap/bootstrap.min.css
+2024-01-31 19:56:30,280 Not Found: /Patient/plugins/slick-carousel/slick/slick-theme.css
+2024-01-31 19:56:30,281 Not Found: /Patient/plugins/icofont/icofont.min.css
+2024-01-31 19:56:30,283 Not Found: /Patient/css/Style1.css
+2024-01-31 19:56:30,284 Not Found: /Patient/plugins/slick-carousel/slick/slick.css
+2024-01-31 19:56:30,306 Not Found: /Patient/plugins/jquery/jquery.js
+2024-01-31 19:56:30,308 Not Found: /Patient/plugins/bootstrap/bootstrap.min.js
+2024-01-31 19:56:30,311 Not Found: /Patient/images/about/img-3.jpg
+2024-01-31 19:56:30,333 Not Found: /Patient/plugins/slick-carousel/slick/slick.min.js
+2024-01-31 19:56:30,335 Not Found: /Patient/plugins/shuffle/shuffle.min.js
+2024-01-31 19:56:30,337 Not Found: /Patient/plugins/google-map/gmap.js
+2024-01-31 19:56:30,339 Not Found: /Patient/js/script.js
+2024-01-31 19:56:30,348 Not Found: /Patient/images/logo.png
+2024-01-31 20:01:10,671 Not Found: /Patient/plugins/shuffle/shuffle.min.js
+2024-01-31 20:01:10,676 Not Found: /Patient/plugins/google-map/gmap.js
+2024-01-31 20:01:10,680 Not Found: /Patient/plugins/jquery/jquery.js
+2024-01-31 20:01:10,681 Not Found: /Patient/images/about/img-3.jpg
+2024-01-31 20:01:10,683 Not Found: /Patient/plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:01:10,688 Not Found: /Patient/plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:01:10,714 Not Found: /Patient/js/script.js
+2024-01-31 20:01:10,724 Not Found: /Patient/images/logo.png
+2024-01-31 20:01:19,530 Not Found: /Patient/blog-sidebar.html
+2024-01-31 20:01:43,033 Not Found: /Patient/plugins/jquery/jquery.js
+2024-01-31 20:01:43,035 Not Found: /Patient/images/about/img-3.jpg
+2024-01-31 20:01:43,088 Not Found: /Patient/plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:01:43,091 Not Found: /Patient/plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:01:43,093 Not Found: /Patient/plugins/shuffle/shuffle.min.js
+2024-01-31 20:01:43,096 Not Found: /Patient/plugins/google-map/gmap.js
+2024-01-31 20:01:43,099 Not Found: /Patient/js/script.js
+2024-01-31 20:01:43,100 Not Found: /Patient/images/logo.png
+2024-01-31 20:03:20,432 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:03:20,433 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:03:20,434 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:03:20,435 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:03:20,436 Not Found: /images/about/img-3.jpg
+2024-01-31 20:03:20,438 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:03:20,451 Not Found: /images/logo.png
+2024-01-31 20:03:20,454 Not Found: /js/script.js
+2024-01-31 20:04:24,705 Not Found: /images/about/img-3.jpg
+2024-01-31 20:04:24,709 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:04:24,791 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:04:24,793 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:04:24,795 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:04:24,799 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:04:24,804 Not Found: /js/script.js
+2024-01-31 20:04:24,808 Not Found: /images/logo.png
+2024-01-31 20:05:16,917 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:05:16,918 Not Found: /images/about/img-3.jpg
+2024-01-31 20:05:16,919 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:05:16,921 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:05:16,926 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:05:16,928 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:05:16,938 Not Found: /js/script.js
+2024-01-31 20:05:16,940 Not Found: /images/logo.png
+2024-01-31 20:07:09,977 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:07:09,979 Not Found: /images/about/img-3.jpg
+2024-01-31 20:07:10,024 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:07:10,026 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:07:10,028 Not Found: /js/script.js
+2024-01-31 20:07:10,030 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:07:10,031 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:07:10,034 Not Found: /images/logo.png
+2024-01-31 20:08:18,528 Not Found: /images/about/img-3.jpg
+2024-01-31 20:08:18,529 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:08:18,590 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:08:18,591 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:08:18,593 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:08:18,595 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:08:18,597 Not Found: /js/script.js
+2024-01-31 20:08:18,599 Not Found: /images/logo.png
+2024-01-31 20:08:35,177 Not Found: /about.html
+2024-01-31 20:08:51,722 Not Found: /service.html
+2024-01-31 20:09:15,513 Not Found: /images/about/img-3.jpg
+2024-01-31 20:09:15,514 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:09:15,516 Not Found: /images/logo.png
+2024-01-31 20:09:15,553 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:09:15,555 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:09:15,557 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:09:15,558 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:09:15,561 Not Found: /js/script.js
+2024-01-31 20:09:20,387 Not Found: /appoinment.html
+2024-01-31 20:09:23,545 Not Found: /service.html
+2024-01-31 20:10:01,724 Not Found: /images/about/img-3.jpg
+2024-01-31 20:10:01,725 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:10:01,769 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:10:01,771 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:10:01,772 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:10:01,773 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:10:01,775 Not Found: /js/script.js
+2024-01-31 20:10:01,776 Not Found: /images/logo.png
+2024-01-31 20:11:26,006 Not Found: /images/about/img-3.jpg
+2024-01-31 20:11:26,008 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:11:26,055 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:11:26,058 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:11:26,060 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:11:26,063 Not Found: /js/script.js
+2024-01-31 20:11:26,064 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:11:26,067 Not Found: /images/logo.png
+2024-01-31 20:12:18,870 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:12:18,870 Not Found: /images/about/img-3.jpg
+2024-01-31 20:12:18,915 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:12:18,917 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:12:18,919 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:12:18,920 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:12:18,921 Not Found: /js/script.js
+2024-01-31 20:12:18,925 Not Found: /images/logo.png
+2024-01-31 20:12:20,140 Not Found: /images/about/img-3.jpg
+2024-01-31 20:12:20,141 Not Found: /images/logo.png
+2024-01-31 20:12:20,142 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:12:20,179 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:12:20,180 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:12:20,181 Not Found: /js/script.js
+2024-01-31 20:12:20,183 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:12:20,185 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:13:21,760 Not Found: /about.html
+2024-01-31 20:13:22,875 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:15:03,986 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:15:04,052 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:15:04,083 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:15:34,253 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:15:45,086 Not Found: /images/about/img-3.jpg
+2024-01-31 20:15:45,086 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:15:45,131 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:15:45,132 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:15:45,134 Not Found: /js/script.js
+2024-01-31 20:15:45,135 Not Found: /images/logo.png
+2024-01-31 20:15:45,136 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:15:45,136 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:16:02,275 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:02,299 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:02,408 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:12,902 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:12,959 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:13,923 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:34,666 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:34,695 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:34,751 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:40,998 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:41,033 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:41,056 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:49,383 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:49,390 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:49,392 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:53,858 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:53,879 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:53,879 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:58,203 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:58,216 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:58,222 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:20:46,608 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:20:47,125 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:20:56,306 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:20:56,307 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:20:56,308 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:20:56,309 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:20:56,311 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:20:56,313 Not Found: /images/about/img-3.jpg
+2024-01-31 20:20:56,328 Not Found: /js/script.js
+2024-01-31 20:20:56,331 Not Found: /images/logo.png
+2024-01-31 20:21:26,485 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:21:28,782 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:21:28,803 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:21:28,811 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:00,791 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:00,862 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:00,999 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:05,145 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:05,212 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:05,314 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:08,488 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:08,540 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:08,602 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:11,776 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:11,855 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:11,889 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:23:12,323 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:23:14,831 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:23:14,849 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:23:15,497 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:23:18,050 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:23:18,071 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:23:18,654 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:23:52,833 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:23:52,834 Not Found: /images/about/img-3.jpg
+2024-01-31 20:23:52,835 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:23:52,836 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:23:52,838 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:23:52,839 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:23:52,853 Not Found: /js/script.js
+2024-01-31 20:23:52,857 Not Found: /images/logo.png
+2024-01-31 20:23:54,186 Not Found: /about.html
+2024-01-31 20:24:06,613 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:06,655 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:06,773 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:07,117 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:18,137 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:24:18,250 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:24:18,502 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:24:28,608 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:28,697 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:28,928 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:33,822 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:33,906 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:34,135 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:40,077 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:40,143 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:40,330 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:43,274 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:43,313 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:43,474 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:47,584 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:47,584 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:47,679 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:49,747 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:49,793 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:49,853 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:51,853 Not Found: /about.html
+2024-01-31 20:25:24,954 Not Found: /images/about/img-3.jpg
+2024-01-31 20:25:24,956 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:25:24,958 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:25:24,960 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:25:24,963 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:25:24,967 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:25:24,976 Not Found: /js/script.js
+2024-01-31 20:25:24,978 Not Found: /images/logo.png
+2024-01-31 20:25:27,834 Not Found: /contact.html
+2024-01-31 20:25:49,169 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:25:49,762 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:25:49,779 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:25:49,875 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:26:33,451 Not Found: /contact.html
+2024-01-31 20:26:41,152 Not Found: /service.html
+2024-01-31 20:27:35,520 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:27:35,520 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.

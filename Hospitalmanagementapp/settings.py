@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     "Pharmacy",
     "Doctor",
     "Patient",  
-    # "widget_tweaks",
     "Admin",
 ]
 
