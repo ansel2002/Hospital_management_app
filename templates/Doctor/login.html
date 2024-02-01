@@ -19,8 +19,9 @@
 <link rel="stylesheet" href="{% static "/d_static/css/style.css" %}">
 
 {% endblock extrahead %} 
- {% block content %}
 
+ {% block content %}
+<body>
  {% if form.errors %}
  <div class="alert alert-warning alert-dismissible fade show" role="alert">
     there was an error with your form......
@@ -81,3 +82,4 @@
 
     <script src="{%static "/d_static/js/script.js" %}"></script>
  {% endblock content%}
+</body>
