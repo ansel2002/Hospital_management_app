@@ -4,9 +4,6 @@
 
 
  {% block extrahead %}
-
-
-
 <link rel="stylesheet" href="{% static 'd_static/css/maicons.css' %}" />
 <link rel="stylesheet" href="{% static 'd_static/css/bootstrap.css' %}" />
 <link
@@ -23,26 +20,25 @@
 
 {% endblock extrahead %} 
  {% block content %}
+
  {% if form.errors %}
  <div class="alert alert-warning alert-dismissible fade show" role="alert">
     there was an error with your form......
     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
   </div>
-
 {% endif %}
+
     <div class="wrapper">
         <div class="form-wrapper sign-up">
-            <form action = "{% url 'register' %}" method="POST">
+            <form action="{% url 'doc-register' %}" method="POST">
                 {% csrf_token %}
-                
-                
                 <h2>Register</h2>
                 <div class="input-group">
                     <input type="text" id="Username" name="Username" required>
                     <label for="">Username</label>
                 </div>
                 <div class="input-group">
-                    <input type="email" required>
+                    <input type="email" name="email" required>
                     <label for="">Email</label>
                 </div>
                 <div class="input-group">
@@ -61,7 +57,7 @@
         </div>
 
         <div class="form-wrapper sign-in">
-            <form method="POST">
+            <form method="POST" action="{% url 'doc-login' %}">
                 {% csrf_token %}
                 <h2>Login</h2>
                 <div class="input-group">

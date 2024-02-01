@@ -41,9 +41,8 @@ INSTALLED_APPS = [
     "ManagementApp",
     "Pharmacy",
     "Doctor",
-    "Patient",
-    # "widget_tweaks",
-    "Admin"
+    "Patient",  
+    "Admin",
 ]
 
 MIDDLEWARE = [
@@ -125,17 +124,17 @@ USE_TZ = True
 STATIC_URL = "/static/"
 STATIC_ROOT = "/static"
 STATICFILES_DIRS = [
-    BASE_DIR / 'static',
+    BASE_DIR / "static",
 ]
 
-MEDIA_URL='/media/'
-MEDIA_ROOT=os.path.join(BASE_DIR,'media')
+MEDIA_URL = "/media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-LOGIN_REDIRECT_URL='/authentication'
+LOGIN_REDIRECT_URL = "/authentication"
 
-LOG_PATH=os.path.join(BASE_DIR,'logs')
+LOG_PATH = os.path.join(BASE_DIR, "logs")
 # import pyotp
 # OTP = pyotp.TOTP(os.getenv('OTP_KEY'))

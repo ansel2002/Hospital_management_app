@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2024-01-31 13:45:29,706 Not Found: /favicon.ico
 2024-01-31 15:48:40,490 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
 2024-01-31 15:50:56,016 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
@@ -146,10 +147,600 @@ Traceback (most recent call last):
   File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
     return super().execute(query, params)
 sqlite3.OperationalError: no such table: Pharmacy_medicinerequest
+=======
+2024-01-31 17:50:45,851 Not Found: /favicon.ico
+2024-01-31 17:51:18,515 Not Found: /doctor/Dashboard
+2024-01-31 17:52:09,675 Internal Server Error: /Doctor/ADD_appointment
+Traceback (most recent call last):
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py", line 91, in add_appointment
+    return render(request, "doctor_dashboard/add_appointment.html")
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: doctor_dashboard/add_appointment.html
+2024-01-31 17:52:27,339 Internal Server Error: /Doctor/ADD_appointment
+Traceback (most recent call last):
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py", line 91, in add_appointment
+    return render(request, "doctor_dashboard/add_appointment.html")
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: doctor_dashboard/add_appointment.html
+2024-01-31 17:53:20,206 Internal Server Error: /Doctor/ADD_appointment
+Traceback (most recent call last):
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py", line 91, in add_appointment
+    return render(request, "doctor_dashboard/add_appointment.html")
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: doctor_dashboard/add_appointment.html
+2024-01-31 17:53:45,509 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:53:51,723 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:54:05,204 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:54:10,300 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:54:14,394 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:54:16,456 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:54:20,566 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:54:37,292 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:54:39,388 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:54:41,389 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:54:44,465 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:54:50,676 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:55:42,936 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:55:44,916 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:55:51,087 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:55:55,205 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:57:22,066 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:57:34,601 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:57:39,707 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:57:45,876 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:57:51,032 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:57:56,125 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:58:11,726 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 17:58:14,443 Internal Server Error: /Doctor/ADD_appointment
+Traceback (most recent call last):
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py", line 89, in add_appointment
+    return render(request, "Doctor/add_appointment.html")
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'add_appointment' not found. 'add_appointment' is not a valid view function or pattern name.
+2024-01-31 17:58:56,525 Internal Server Error: /Doctor/ADD_appointment
+Traceback (most recent call last):
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py", line 88, in add_appointment
+    return redirect("doctor_dashboard")
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'doctor_dashboard' not found. 'doctor_dashboard' is not a valid view function or pattern name.
+2024-01-31 17:59:45,231 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:00:10,836 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\urls.py changed, reloading.
+2024-01-31 18:00:28,655 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:00:31,116 Internal Server Error: /Doctor/ADD_appointment
+Traceback (most recent call last):
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py", line 88, in add_appointment
+    return redirect("doc_Dashboard")
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'doc_Dashboard' not found. 'doc_Dashboard' is not a valid view function or pattern name.
+2024-01-31 18:00:44,554 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\urls.py changed, reloading.
+2024-01-31 18:00:46,760 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:00:49,518 Internal Server Error: /Doctor/ADD_appointment
+Traceback (most recent call last):
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py", line 88, in add_appointment
+    return redirect("doc_Dashboard")
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'doc_Dashboard' not found. 'doc_Dashboard' is not a valid view function or pattern name.
+2024-01-31 18:00:58,391 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:01:10,863 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:01:13,972 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:01:20,140 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:01:30,519 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:01:32,526 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:01:34,566 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:01:37,696 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:01:39,723 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:01:41,765 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:01:43,828 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:01:54,313 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:01:56,320 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:02:04,575 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:02:08,717 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:02:14,879 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:02:17,887 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:02:22,007 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:02:26,156 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:02:38,649 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\urls.py changed, reloading.
+2024-01-31 18:02:44,866 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\urls.py changed, reloading.
+2024-01-31 18:02:50,032 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\urls.py changed, reloading.
+2024-01-31 18:03:09,800 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:03:11,842 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:03:13,837 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:03:16,916 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:03:21,116 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:03:23,236 Internal Server Error: /Doctor/Dashboard
+Traceback (most recent call last):
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py", line 78, in doctor_dashboard
+    return render(request, "Doctor/dashboard.html", {"appointments": appointments})
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'view_patient_details' not found. 'view_patient_details' is not a valid view function or pattern name.
+2024-01-31 18:03:55,037 Internal Server Error: /Doctor/Dashboard
+Traceback (most recent call last):
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py", line 78, in doctor_dashboard
+    return render(request, "Doctor/dashboard.html", {"appointments": appointments})
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'view_patient_details' not found. 'view_patient_details' is not a valid view function or pattern name.
+2024-01-31 18:16:50,085 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:16:56,480 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\urls.py changed, reloading.
+2024-01-31 18:18:21,453 Not Found: /Doctor/{}../assets/img/doctors/doctor_3.jpg
+2024-01-31 18:18:21,457 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-31 18:18:21,485 Not Found: /assets/img/person/person_1.jpg
+2024-01-31 18:18:21,489 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-31 18:18:21,521 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-31 18:18:21,525 Not Found: /assets/img/person/person_2.jpg
+2024-01-31 18:18:34,168 Internal Server Error: /Doctor/login/
+Traceback (most recent call last):
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration/login.html
+2024-01-31 18:19:26,989 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:19:33,857 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:19:35,772 Internal Server Error: /Doctor/login/
+Traceback (most recent call last):
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration/login.html
+2024-01-31 18:19:47,659 Internal Server Error: /Doctor/login/
+Traceback (most recent call last):
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration/login.html
+2024-01-31 18:20:25,585 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:20:43,686 Internal Server Error: /Doctor/login/
+Traceback (most recent call last):
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration/login.html
+2024-01-31 18:22:36,932 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\urls.py changed, reloading.
+2024-01-31 18:22:42,235 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\urls.py changed, reloading.
+2024-01-31 18:22:58,006 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:23:35,370 Internal Server Error: /Doctor/Login
+Traceback (most recent call last):
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py", line 52, in userLogin
+    return render(request, "Doctor/login.html", context={})
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'register' not found. 'register' is not a valid view function or pattern name.
+2024-01-31 18:23:51,964 Not Found: /Doctor/{}../assets/img/doctors/doctor_3.jpg
+2024-01-31 18:23:52,117 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-31 18:23:52,137 Not Found: /assets/img/person/person_1.jpg
+2024-01-31 18:23:52,141 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-31 18:23:52,191 Not Found: /assets/img/person/person_2.jpg
+2024-01-31 18:23:52,211 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-31 18:24:36,616 Internal Server Error: /Doctor/Register
+Traceback (most recent call last):
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py", line 70, in userRegister
+    login(request, user)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\__init__.py", line 138, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'AnonymousUser' object has no attribute '_meta'
+2024-01-31 18:25:12,352 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:25:15,635 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:25:25,639 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:25:35,749 Not Found: /Doctor/{}../assets/img/doctors/doctor_3.jpg
+2024-01-31 18:25:35,753 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-31 18:25:35,757 Not Found: /assets/img/person/person_1.jpg
+2024-01-31 18:25:35,765 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-31 18:25:35,777 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-31 18:25:35,817 Not Found: /assets/img/person/person_2.jpg
+2024-01-31 18:25:48,103 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:25:51,733 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:26:00,223 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-31 18:26:00,227 Not Found: /Doctor/{}../assets/img/doctors/doctor_3.jpg
+2024-01-31 18:26:00,231 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-31 18:26:00,231 Not Found: /assets/img/person/person_1.jpg
+2024-01-31 18:26:00,235 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-31 18:26:00,239 Not Found: /assets/img/person/person_2.jpg
+2024-01-31 18:26:10,844 Not Found: /Doctor/{}../assets/img/doctors/doctor_3.jpg
+2024-01-31 18:26:10,970 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-31 18:26:10,974 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-31 18:26:10,978 Not Found: /assets/img/person/person_1.jpg
+2024-01-31 18:26:10,986 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-31 18:26:10,989 Not Found: /assets/img/person/person_2.jpg
+2024-01-31 18:26:30,478 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:26:33,798 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:26:37,164 Not Found: /Doctor/{}../assets/img/doctors/doctor_3.jpg
+2024-01-31 18:26:37,261 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-31 18:26:37,297 Not Found: /assets/img/person/person_1.jpg
+2024-01-31 18:26:37,301 Not Found: /assets/img/person/person_2.jpg
+2024-01-31 18:26:37,309 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-31 18:26:37,321 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-31 18:26:46,382 Not Found: /Doctor/{}../assets/img/doctors/doctor_3.jpg
+2024-01-31 18:26:46,491 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-31 18:26:46,499 Not Found: /assets/img/person/person_1.jpg
+2024-01-31 18:26:46,507 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-31 18:26:46,519 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-31 18:26:46,523 Not Found: /assets/img/person/person_2.jpg
+2024-01-31 18:26:58,404 Not Found: /Doctor/{}../assets/img/doctors/doctor_3.jpg
+2024-01-31 18:26:58,514 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-31 18:26:58,518 Not Found: /assets/img/person/person_1.jpg
+2024-01-31 18:26:58,522 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-31 18:26:58,526 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-31 18:26:58,534 Not Found: /assets/img/person/person_2.jpg
+2024-01-31 18:29:18,071 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:29:32,293 Not Found: /assets/img/person/person_1.jpg
+2024-01-31 18:29:32,297 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-31 18:29:32,297 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-31 18:29:32,309 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-31 18:29:32,321 Not Found: /Doctor/{}../assets/img/doctors/doctor_3.jpg
+2024-01-31 18:29:32,353 Not Found: /assets/img/person/person_2.jpg
+2024-01-31 18:30:20,655 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:30:26,254 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:30:33,161 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:31:09,906 Internal Server Error: /Doctor/Login
+Traceback (most recent call last):
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py", line 40, in userLogin
+    print(username, password)
+NameError: name 'username' is not defined
+2024-01-31 18:31:25,059 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:31:28,625 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:31:40,288 Not Found: /assets/img/person/person_1.jpg
+2024-01-31 18:31:40,292 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-31 18:31:40,300 Not Found: /Doctor/{}../assets/img/doctors/doctor_3.jpg
+2024-01-31 18:31:40,324 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-31 18:31:40,344 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-31 18:31:40,364 Not Found: /assets/img/person/person_2.jpg
+2024-01-31 18:32:44,544 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:32:50,264 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:32:58,044 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:33:01,626 Not Found: /Doctor/{}../assets/img/doctors/doctor_3.jpg
+2024-01-31 18:33:01,626 Not Found: /assets/img/person/person_1.jpg
+2024-01-31 18:33:01,630 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-31 18:33:01,634 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-31 18:33:01,638 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-31 18:33:01,646 Not Found: /assets/img/person/person_2.jpg
+2024-01-31 18:33:12,755 Not Found: /Doctor/{}../assets/img/doctors/doctor_3.jpg
+2024-01-31 18:33:12,923 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-31 18:33:12,927 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-31 18:33:12,927 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-31 18:33:12,931 Not Found: /assets/img/person/person_1.jpg
+2024-01-31 18:33:12,940 Not Found: /assets/img/person/person_2.jpg
+2024-01-31 18:36:05,176 Not Found: /Doctor/{}../assets/img/doctors/doctor_3.jpg
+2024-01-31 18:36:05,180 Not Found: /assets/img/person/person_1.jpg
+2024-01-31 18:36:05,180 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-31 18:36:05,188 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-31 18:36:05,192 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-31 18:36:05,224 Not Found: /assets/img/person/person_2.jpg
+2024-01-31 18:36:20,570 Not Found: /Doctor/{}../assets/img/doctors/doctor_3.jpg
+2024-01-31 18:36:20,655 Not Found: /assets/img/person/person_1.jpg
+2024-01-31 18:36:20,659 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-31 18:36:20,663 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-31 18:36:20,663 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-31 18:36:20,671 Not Found: /assets/img/person/person_2.jpg
+2024-01-31 18:37:12,071 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:37:17,368 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:37:24,010 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:37:27,293 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:38:00,984 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:38:04,365 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:38:09,980 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:38:13,304 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:38:16,620 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:38:22,055 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:38:27,746 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:38:37,600 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:38:42,937 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:38:49,568 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:39:00,732 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:39:05,091 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:39:11,787 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:39:17,055 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:41:00,452 Internal Server Error: /Doctor/Register
+Traceback (most recent call last):
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py", line 73, in userRegister
+    login(request, user)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\__init__.py", line 138, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'AnonymousUser' object has no attribute '_meta'
+2024-01-31 18:42:05,093 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:42:09,844 C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py changed, reloading.
+2024-01-31 18:42:13,731 Internal Server Error: /Doctor/Register
+Traceback (most recent call last):
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: auth_user.username
+>>>>>>> 920dad3e740d90427c55663ab7b779c08ae30acb
 
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
+<<<<<<< HEAD
   File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
     response = get_response(request)
   File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
@@ -277,3 +868,383 @@ django.core.exceptions.ValidationError: ['“” value has an invalid date format. I
 2024-01-31 21:33:41,525 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
 2024-01-31 21:33:47,330 Not Found: /Pharmacy/Pharmacy/contact
 2024-01-31 21:33:47,416 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+=======
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py", line 69, in userRegister
+    user = User.objects.create_user(
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\models.py", line 161, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\models.py", line 155, in _create_user
+    user.save(using=self._db)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\base_user.py", line 68, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: auth_user.username
+2024-01-31 18:42:32,161 Internal Server Error: /Doctor/Register
+Traceback (most recent call last):
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: auth_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\coolg\OneDrive\Desktop\CAC2\Hospitalmanagementapp\Doctor\views.py", line 69, in userRegister
+    user = User.objects.create_user(
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\models.py", line 161, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\models.py", line 155, in _create_user
+    user.save(using=self._db)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\base_user.py", line 68, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: auth_user.username
+2024-01-31 18:43:13,303 Not Found: /Doctor/{}../assets/img/doctors/doctor_3.jpg
+2024-01-31 18:43:13,319 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-31 18:43:13,339 Not Found: /assets/img/person/person_1.jpg
+2024-01-31 18:43:13,343 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-31 18:43:13,355 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-31 18:43:13,367 Not Found: /assets/img/person/person_2.jpg
+2024-01-31 18:43:28,079 Not Found: /assets/img/person/person_1.jpg
+2024-01-31 18:43:28,087 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-31 18:43:28,095 Not Found: /Doctor/{}../assets/img/doctors/doctor_3.jpg
+2024-01-31 18:43:28,107 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-31 18:43:28,119 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-31 18:43:28,127 Not Found: /assets/img/person/person_2.jpg
+2024-01-31 18:45:48,906 Not Found: /Doctor/{}../assets/img/doctors/doctor_3.jpg
+2024-01-31 18:45:48,918 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-31 18:45:48,924 Not Found: /assets/img/person/person_1.jpg
+2024-01-31 18:45:48,932 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-31 18:45:48,940 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-31 18:45:48,944 Not Found: /assets/img/person/person_2.jpg
+2024-01-31 18:46:02,893 Not Found: /Doctor/{}../assets/img/doctors/doctor_3.jpg
+2024-01-31 18:46:03,019 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-31 18:46:03,023 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-31 18:46:03,027 Not Found: /assets/img/person/person_1.jpg
+2024-01-31 18:46:03,031 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-31 18:46:03,035 Not Found: /assets/img/person/person_2.jpg
+2024-01-31 18:46:48,053 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-31 18:46:48,061 Not Found: /assets/img/person/person_1.jpg
+2024-01-31 18:46:48,069 Not Found: /Doctor/{}../assets/img/doctors/doctor_3.jpg
+2024-01-31 18:46:48,077 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-31 18:46:48,089 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-31 18:46:48,109 Not Found: /assets/img/person/person_2.jpg
+2024-01-31 18:46:58,041 Not Found: /Doctor/{}../assets/img/doctors/doctor_3.jpg
+2024-01-31 18:46:58,142 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-31 18:46:58,142 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-31 18:46:58,146 Not Found: /assets/img/person/person_2.jpg
+2024-01-31 18:46:58,150 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-31 18:46:58,150 Not Found: /assets/img/person/person_1.jpg
+2024-01-31 19:48:15,689 Not Found: /Patient/plugins/icofont/icofont.min.css
+2024-01-31 19:48:15,691 Not Found: /Patient/plugins/bootstrap/bootstrap.min.css
+2024-01-31 19:48:15,693 Not Found: /Patient/images/logo.png
+2024-01-31 19:48:15,695 Not Found: /Patient/plugins/slick-carousel/slick/slick.css
+2024-01-31 19:48:15,696 Not Found: /Patient/css/Style1.css
+2024-01-31 19:48:15,698 Not Found: /Patient/plugins/slick-carousel/slick/slick-theme.css
+2024-01-31 19:48:15,740 Not Found: /Patient/plugins/jquery/jquery.js
+2024-01-31 19:48:15,742 Not Found: /Patient/images/about/img-1.jpg
+2024-01-31 19:48:15,744 Not Found: /Patient/plugins/bootstrap/bootstrap.min.js
+2024-01-31 19:48:15,745 Not Found: /Patient/images/about/img-3.jpg
+2024-01-31 19:48:15,747 Not Found: /Patient/images/about/img-2.jpg
+2024-01-31 19:48:15,755 Not Found: /Patient/plugins/slick-carousel/slick/slick.min.js
+2024-01-31 19:48:15,775 Not Found: /Patient/plugins/shuffle/shuffle.min.js
+2024-01-31 19:48:15,778 Not Found: /Patient/plugins/google-map/gmap.js
+2024-01-31 19:48:15,782 Not Found: /Patient/js/script.js
+2024-01-31 19:56:30,279 Not Found: /Patient/plugins/bootstrap/bootstrap.min.css
+2024-01-31 19:56:30,280 Not Found: /Patient/plugins/slick-carousel/slick/slick-theme.css
+2024-01-31 19:56:30,281 Not Found: /Patient/plugins/icofont/icofont.min.css
+2024-01-31 19:56:30,283 Not Found: /Patient/css/Style1.css
+2024-01-31 19:56:30,284 Not Found: /Patient/plugins/slick-carousel/slick/slick.css
+2024-01-31 19:56:30,306 Not Found: /Patient/plugins/jquery/jquery.js
+2024-01-31 19:56:30,308 Not Found: /Patient/plugins/bootstrap/bootstrap.min.js
+2024-01-31 19:56:30,311 Not Found: /Patient/images/about/img-3.jpg
+2024-01-31 19:56:30,333 Not Found: /Patient/plugins/slick-carousel/slick/slick.min.js
+2024-01-31 19:56:30,335 Not Found: /Patient/plugins/shuffle/shuffle.min.js
+2024-01-31 19:56:30,337 Not Found: /Patient/plugins/google-map/gmap.js
+2024-01-31 19:56:30,339 Not Found: /Patient/js/script.js
+2024-01-31 19:56:30,348 Not Found: /Patient/images/logo.png
+2024-01-31 20:01:10,671 Not Found: /Patient/plugins/shuffle/shuffle.min.js
+2024-01-31 20:01:10,676 Not Found: /Patient/plugins/google-map/gmap.js
+2024-01-31 20:01:10,680 Not Found: /Patient/plugins/jquery/jquery.js
+2024-01-31 20:01:10,681 Not Found: /Patient/images/about/img-3.jpg
+2024-01-31 20:01:10,683 Not Found: /Patient/plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:01:10,688 Not Found: /Patient/plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:01:10,714 Not Found: /Patient/js/script.js
+2024-01-31 20:01:10,724 Not Found: /Patient/images/logo.png
+2024-01-31 20:01:19,530 Not Found: /Patient/blog-sidebar.html
+2024-01-31 20:01:43,033 Not Found: /Patient/plugins/jquery/jquery.js
+2024-01-31 20:01:43,035 Not Found: /Patient/images/about/img-3.jpg
+2024-01-31 20:01:43,088 Not Found: /Patient/plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:01:43,091 Not Found: /Patient/plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:01:43,093 Not Found: /Patient/plugins/shuffle/shuffle.min.js
+2024-01-31 20:01:43,096 Not Found: /Patient/plugins/google-map/gmap.js
+2024-01-31 20:01:43,099 Not Found: /Patient/js/script.js
+2024-01-31 20:01:43,100 Not Found: /Patient/images/logo.png
+2024-01-31 20:03:20,432 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:03:20,433 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:03:20,434 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:03:20,435 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:03:20,436 Not Found: /images/about/img-3.jpg
+2024-01-31 20:03:20,438 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:03:20,451 Not Found: /images/logo.png
+2024-01-31 20:03:20,454 Not Found: /js/script.js
+2024-01-31 20:04:24,705 Not Found: /images/about/img-3.jpg
+2024-01-31 20:04:24,709 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:04:24,791 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:04:24,793 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:04:24,795 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:04:24,799 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:04:24,804 Not Found: /js/script.js
+2024-01-31 20:04:24,808 Not Found: /images/logo.png
+2024-01-31 20:05:16,917 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:05:16,918 Not Found: /images/about/img-3.jpg
+2024-01-31 20:05:16,919 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:05:16,921 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:05:16,926 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:05:16,928 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:05:16,938 Not Found: /js/script.js
+2024-01-31 20:05:16,940 Not Found: /images/logo.png
+2024-01-31 20:07:09,977 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:07:09,979 Not Found: /images/about/img-3.jpg
+2024-01-31 20:07:10,024 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:07:10,026 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:07:10,028 Not Found: /js/script.js
+2024-01-31 20:07:10,030 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:07:10,031 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:07:10,034 Not Found: /images/logo.png
+2024-01-31 20:08:18,528 Not Found: /images/about/img-3.jpg
+2024-01-31 20:08:18,529 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:08:18,590 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:08:18,591 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:08:18,593 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:08:18,595 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:08:18,597 Not Found: /js/script.js
+2024-01-31 20:08:18,599 Not Found: /images/logo.png
+2024-01-31 20:08:35,177 Not Found: /about.html
+2024-01-31 20:08:51,722 Not Found: /service.html
+2024-01-31 20:09:15,513 Not Found: /images/about/img-3.jpg
+2024-01-31 20:09:15,514 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:09:15,516 Not Found: /images/logo.png
+2024-01-31 20:09:15,553 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:09:15,555 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:09:15,557 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:09:15,558 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:09:15,561 Not Found: /js/script.js
+2024-01-31 20:09:20,387 Not Found: /appoinment.html
+2024-01-31 20:09:23,545 Not Found: /service.html
+2024-01-31 20:10:01,724 Not Found: /images/about/img-3.jpg
+2024-01-31 20:10:01,725 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:10:01,769 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:10:01,771 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:10:01,772 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:10:01,773 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:10:01,775 Not Found: /js/script.js
+2024-01-31 20:10:01,776 Not Found: /images/logo.png
+2024-01-31 20:11:26,006 Not Found: /images/about/img-3.jpg
+2024-01-31 20:11:26,008 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:11:26,055 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:11:26,058 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:11:26,060 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:11:26,063 Not Found: /js/script.js
+2024-01-31 20:11:26,064 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:11:26,067 Not Found: /images/logo.png
+2024-01-31 20:12:18,870 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:12:18,870 Not Found: /images/about/img-3.jpg
+2024-01-31 20:12:18,915 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:12:18,917 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:12:18,919 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:12:18,920 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:12:18,921 Not Found: /js/script.js
+2024-01-31 20:12:18,925 Not Found: /images/logo.png
+2024-01-31 20:12:20,140 Not Found: /images/about/img-3.jpg
+2024-01-31 20:12:20,141 Not Found: /images/logo.png
+2024-01-31 20:12:20,142 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:12:20,179 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:12:20,180 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:12:20,181 Not Found: /js/script.js
+2024-01-31 20:12:20,183 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:12:20,185 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:13:21,760 Not Found: /about.html
+2024-01-31 20:13:22,875 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:15:03,986 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:15:04,052 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:15:04,083 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:15:34,253 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:15:45,086 Not Found: /images/about/img-3.jpg
+2024-01-31 20:15:45,086 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:15:45,131 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:15:45,132 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:15:45,134 Not Found: /js/script.js
+2024-01-31 20:15:45,135 Not Found: /images/logo.png
+2024-01-31 20:15:45,136 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:15:45,136 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:16:02,275 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:02,299 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:02,408 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:12,902 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:12,959 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:13,923 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:34,666 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:34,695 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:34,751 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:40,998 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:41,033 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:41,056 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:49,383 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:49,390 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:49,392 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:53,858 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:53,879 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:53,879 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:58,203 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:58,216 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:16:58,222 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:20:46,608 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:20:47,125 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:20:56,306 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:20:56,307 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:20:56,308 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:20:56,309 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:20:56,311 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:20:56,313 Not Found: /images/about/img-3.jpg
+2024-01-31 20:20:56,328 Not Found: /js/script.js
+2024-01-31 20:20:56,331 Not Found: /images/logo.png
+2024-01-31 20:21:26,485 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:21:28,782 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:21:28,803 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:21:28,811 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:00,791 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:00,862 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:00,999 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:05,145 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:05,212 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:05,314 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:08,488 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:08,540 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:08,602 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:11,776 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:11,855 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:22:11,889 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:23:12,323 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:23:14,831 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:23:14,849 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:23:15,497 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:23:18,050 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:23:18,071 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:23:18,654 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:23:52,833 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:23:52,834 Not Found: /images/about/img-3.jpg
+2024-01-31 20:23:52,835 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:23:52,836 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:23:52,838 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:23:52,839 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:23:52,853 Not Found: /js/script.js
+2024-01-31 20:23:52,857 Not Found: /images/logo.png
+2024-01-31 20:23:54,186 Not Found: /about.html
+2024-01-31 20:24:06,613 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:06,655 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:06,773 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:07,117 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:18,137 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:24:18,250 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:24:18,502 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:24:28,608 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:28,697 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:28,928 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:33,822 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:33,906 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:34,135 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:40,077 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:40,143 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:40,330 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:43,274 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:43,313 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:43,474 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:47,584 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:47,584 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:47,679 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:49,747 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:49,793 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:49,853 E:\PG DATA SCIENCE\Hospital_management_app\Hospitalmanagementapp\urls.py changed, reloading.
+2024-01-31 20:24:51,853 Not Found: /about.html
+2024-01-31 20:25:24,954 Not Found: /images/about/img-3.jpg
+2024-01-31 20:25:24,956 Not Found: /plugins/jquery/jquery.js
+2024-01-31 20:25:24,958 Not Found: /plugins/bootstrap/bootstrap.min.js
+2024-01-31 20:25:24,960 Not Found: /plugins/slick-carousel/slick/slick.min.js
+2024-01-31 20:25:24,963 Not Found: /plugins/google-map/gmap.js
+2024-01-31 20:25:24,967 Not Found: /plugins/shuffle/shuffle.min.js
+2024-01-31 20:25:24,976 Not Found: /js/script.js
+2024-01-31 20:25:24,978 Not Found: /images/logo.png
+2024-01-31 20:25:27,834 Not Found: /contact.html
+2024-01-31 20:25:49,169 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:25:49,762 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:25:49,779 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:25:49,875 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:26:33,451 Not Found: /contact.html
+2024-01-31 20:26:41,152 Not Found: /service.html
+2024-01-31 20:27:35,520 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-31 20:27:35,520 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+>>>>>>> 920dad3e740d90427c55663ab7b779c08ae30acb
