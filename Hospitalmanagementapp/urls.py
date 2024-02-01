@@ -25,12 +25,11 @@ from Admin import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", index, name="home"),
+    path("Admin/", include("Admin.urls")),
     path("Pharmacy/", include("Pharmacy.urls")),
     path("Doctor/", include("Doctor.urls")),
      path("Doctor/", include("django.contrib.auth.urls")),
     path("Patient/",include("Patient.urls")),
-    path('About', views.About,name='About'),
-    path('Contact', views.Contact,name='Contact'),
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
