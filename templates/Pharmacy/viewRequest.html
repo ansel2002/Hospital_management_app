@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extrahead %}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Rubik:400,700|Crimson+Text:400,400i" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'fonts/icomoon/style.css' %}">
+<link rel="stylesheet" href="{% static 'css/p_bootstrap.min.css' %}">
+<link rel="stylesheet" href="{% static 'css/p_magnific-popup.css' %}">
+<link rel="stylesheet" href="{% static 'css/p_jquery-ui.css' %}">
+<link rel="stylesheet" href="{% static 'css/p_owl.carousel.min.css' %}">
+<link rel="stylesheet" href="{% static 'css/p_owl.theme.default.min.css' %}">
+<link rel="stylesheet" href="{% static 'css/p_aos.css' %}">
+<link rel="stylesheet" href="{% static 'css/p_style.css' %}">
+<link rel="stylesheet" href="{% static 'css/custom.css' %}">
+{% endblock extrahead %}
+
+{% block content %}
+
+<div class="site-wrap">
+
+
+  <div class="site-navbar py-2">
+
+    <div class="search-wrap">
+      <div class="container">
+        <a href="#" class="search-close js-search-close"><span class="icon-close2"></span></a>
+        <form action="#" method="post">
+          <input type="text" class="form-control" placeholder="Search keyword and hit enter...">
+        </form>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <div class="site-logo">
+            <a href="homePage" class="js-logo-clone">Pharma</a>
+          </div>
+        </div>
+        <div class="main-nav d-none d-lg-block">
+          <nav class="site-navigation text-right text-md-center" role="navigation">
+            <ul class="site-menu js-clone-nav d-none d-lg-block">
+              <li><a href="homePage">Home</a></li>
+              <li><a href="store">Store</a></li>
+             
+              <li><a href="aboutUs">About</a></li>
+              <li class="active"><a href="contactUs">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="icons">
+          <a href="#" class="icons-btn d-inline-block js-search-open"><span class="icon-search"></span></a>
+          <a href="cart" class="icons-btn d-inline-block bag">
+            <span class="icon-shopping-bag"></span>
+            <span class="number">2</span>
+          </a>
+          <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span
+              class="icon-menu"></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <table class="table table-info table-striped">
+    {% csrf_token %}
+    <thead>
+      <tr>
+        <th scope="col">Sl No</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">Contact</th>
+        <th scope="col">Medicine Name</th>
+        <th scope="col">Prescription</th>
+        <th scope="col">RequestDate</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      {% for request in request_details %}
+      <tr>
+        <th scope="row">{{forloop.counter}}</th>
+        <td>{{request.first}}</td>
+        <td>{{request.last}}</td>
+        <td>{{request.contact}}</td>
+        <td>{{request.medicine_name}}</td>
+        
+        <td>
+          <img src="{{prescription.url}}" height="100px">
+        </td>
+        <td>{{request.Date}}</td>
+      
+       
+      {% endfor %}
+    </tbody>
+  </table>
+
+{% endblock content %}
+
+  {% block extrafooter %}
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+  <script src="{% static 'js/jquery-ui.js' %}"></script>
+  <script src="{% static 'js/popper.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+  <script src="{% static 'js/aos.js' %}"></script>
+  <script src="{% static 'js/main.js' %}"></script>
+  {% endblock extrafooter %}

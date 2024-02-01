@@ -1,5 +1,5 @@
 from django.shortcuts import render,redirect
-from Pharmacy.models import Store
+from Pharmacy.models import Store, medicineRequest
 
 
 # Create your views here.
@@ -14,6 +14,16 @@ def homePage(request):
     return render(request, "Pharmacy/home.html", context={})
 
 def contact(request):
+    if request.method=="POST":
+        first_name=request.POST.get('requestfirstname')
+        last_name=request.POST.get('requestlastname')
+        contact_number=request.POST.get('requestnumber')
+        medicine_name=request.POST.get('requestmedicine')
+        prescription=request.FILES.get('prescription')
+        requestDate=request.POST.get('requestdate')
+        request_details=medicineRequest(first=first_name,last=last_name,contact=contact_number, medicine_name=medicine_name,prescription=prescription, Date=requestDate)
+        request_details.save()
+        return redirect("contactUs")  
     return render(request, "Pharmacy/contact.html", context={})
 
 def thankyou(request):
@@ -37,10 +47,13 @@ def checkout(request):
 
 def updateStore(request):
     return render(request, "Pharmacy/updateStore.html", context={})
+
+def Request(request):
+    return render(request, "Pharmacy/viewRequest.html", context={})
 # def addItem(request, product_id):
 #     return(request,)
-def addItem(request, product_id):
-    return(request,)
+# def addItem(request, product_id):
+#     return(request,)
 
 
 # def addQnty(request,product_id):
@@ -80,7 +93,10 @@ def editProduct(request,id):
     product = Store.objects.get(product_id=id)
     return render(request,'Pharmacy\\editProduct.html',{'product':product})
 
-    
+def viewRequest(request):
+    request_details=medicineRequest.objects.all()
+    return render(request,'pharmacy\\viewRequest.html', {'request_details':request_details})
+
     
 
     

@@ -71,3 +71,4 @@ def Register(request):
     return render(request,"Doctor/login.html",{
             "form": form,
             })
+
