@@ -46,3 +46,14 @@ class Billing(models.Model):
 
     def __str__(self):
         return str({self.first_name.__str__()}) + "-" + str({self.last_name.__str__()}) + "-" + str({self.phone.__str__()})
+        
+class medicineRequest(models.Model):
+    first = models.CharField(max_length=50,blank=False)
+    last = models.CharField(max_length=50,blank=False)
+    contact = models.IntegerField(blank=False)
+    medicine_name = models.CharField(max_length=50,blank=False)
+    prescription = models.ImageField(upload_to='prescriptions/')
+    Date=models.DateField(blank=False)
+
+    def __str__(self):
+        return str(self.medicine_name.__str__())
