@@ -16,6 +16,8 @@ urlpatterns = [
     path('shop-single',views.shop,name="shop"),
     path('checkout',views.checkout,name="checkout"),
     path('catelogue',views.catelogue,name="catelogue"),
+    path('Request',views.Request,name="Request"),
+    path('viewRequest',views.viewRequest,name="viewRequest"),
     path('deleteProduct/<str:id>/',views.deleteProduct,name="deleteProduct"),
     path('editProduct/<str:id>/',views.editProduct,name="editProduct"),
 

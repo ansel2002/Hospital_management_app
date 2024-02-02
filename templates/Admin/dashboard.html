@@ -6,12 +6,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/favicon.ico' %}">
     <title>Hospital Management System</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/font-awesome.min.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styl.css' %}">
     <!--[if lt IE 9]>
 		<script src="assets/js/html5shiv.min.js"></script>
 		<script src="assets/js/respond.min.js"></script>
@@ -23,7 +23,7 @@
         <div class="header">
 			<div class="header-left">
 				<a href="index-2.html" class="logo">
-					<img src="{% static 'assets/img/logo.png' %}" width="35" height="35" alt=""> <span>Preclinic</span>
+					<img src="{% static 'img/logo.png' %}" width="35" height="35" alt=""> <span>Preclinic</span>
 				</a>
 			</div>
 			<a id="toggle_btn" href="javascript:void(0);"><i class="fa fa-bars"></i></a>
@@ -97,7 +97,7 @@
                             </ul>
                         </div>
                         <div class="topnav-dropdown-footer">
-                            <a href="activities.html">View all Notifications</a>
+                            <a href="{% url 'Activities' %}">View all Notifications</a>
                         </div>
                     </div>
                 </li>
@@ -107,15 +107,15 @@
                 <li class="nav-item dropdown has-arrow">
                     <a href="#" class="dropdown-toggle nav-link user-link" data-toggle="dropdown">
                         <span class="user-img">
-							<img class="rounded-circle" src="{% static 'assets/img/user.jpg' %}" width="24" alt="Admin">
+							<img class="rounded-circle" src="{% static 'img/user.jpg' %}" width="24" alt="Admin">
 							<span class="status online"></span>
 						</span>
 						<span>Admin</span>
                     </a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="profile.html">My Profile</a>
-						<a class="dropdown-item" href="edit-profile.html">Edit Profile</a>
-						<a class="dropdown-item" href="settings.html">Settings</a>
+						<a class="dropdown-item" href="{% url 'profile' %}">My Profile</a>
+						<a class="dropdown-item" href="{% url 'edit-profile' %}">Edit Profile</a>
+						<a class="dropdown-item" href="{% url 'settings' %}">Settings</a>
 						<a class="dropdown-item" href="login.html">Logout</a>
 					</div>
                 </li>
@@ -123,9 +123,9 @@
             <div class="dropdown mobile-user-menu float-right">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
                 <div class="dropdown-menu dropdown-menu-right">
-                    <a class="dropdown-item" href="profile.html">My Profile</a>
-                    <a class="dropdown-item" href="edit-profile.html">Edit Profile</a>
-                    <a class="dropdown-item" href="settings.html">Settings</a>
+                    <a class="dropdown-item" href="{% url 'profile' %}">My Profile</a>
+                    <a class="dropdown-item" href="{% url 'edit-profile' %}">Edit Profile</a>
+                    <a class="dropdown-item" href="{% url 'settings' %}">Settings</a>
                     <a class="dropdown-item" href="login.html">Logout</a>
                 </div>
             </div>
@@ -136,120 +136,120 @@
                     <ul>
                         <li class="menu-title">Main</li>
                         <li class="active">
-                            <a href="index-2.html"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a>
+                            <a href="{% url 'Dashboard' %}"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a>
                         </li>
 						<li>
-                            <a href="doctors.html"><i class="fa fa-user-md"></i> <span>Doctors</span></a>
+                            <a href="{% url 'Doctors' %}"><i class="fa fa-user-md"></i> <span>Doctors</span></a>
                         </li>
                         <li>
-                            <a href="patients.html"><i class="fa fa-wheelchair"></i> <span>Patients</span></a>
+                            <a href="{% url 'patients' %}"><i class="fa fa-wheelchair"></i> <span>Patients</span></a>
                         </li>
                         <li>
-                            <a href="appointments.html"><i class="fa fa-calendar"></i> <span>Appointments</span></a>
+                            <a href="{% url 'Appointments' %}"><i class="fa fa-calendar"></i> <span>Appointments</span></a>
                         </li>
                         <li>
-                            <a href="schedule.html"><i class="fa fa-calendar-check-o"></i> <span>Doctor Schedule</span></a>
+                            <a href="{% url 'schedule' %}"><i class="fa fa-calendar-check-o"></i> <span>Doctor Schedule</span></a>
                         </li>
                         <li>
-                            <a href="departments.html"><i class="fa fa-hospital-o"></i> <span>Departments</span></a>
+                            <a href="{% url 'departments' %}"><i class="fa fa-hospital-o"></i> <span>Departments</span></a>
                         </li>
 						<li class="submenu">
 							<a href="#"><i class="fa fa-user"></i> <span> Employees </span> <span class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="employees.html">Employees List</a></li>
-								<li><a href="leaves.html">Leaves</a></li>
-								<li><a href="holidays.html">Holidays</a></li>
-								<li><a href="attendance.html">Attendance</a></li>
+								<li><a href="{% url 'employees' %}">Employees List</a></li>
+								<li><a href="{% url 'leaves' %}">Leaves</a></li>
+								<li><a href="{% url 'holidays' %}">Holidays</a></li>
+								<li><a href="{% url 'Attendence' %}">Attendance</a></li>
 							</ul>
 						</li>
 						<li class="submenu">
 							<a href="#"><i class="fa fa-money"></i> <span> Accounts </span> <span class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="invoices.html">Invoices</a></li>
-								<li><a href="payments.html">Payments</a></li>
-								<li><a href="expenses.html">Expenses</a></li>
-								<li><a href="taxes.html">Taxes</a></li>
-								<li><a href="provident-fund.html">Provident Fund</a></li>
+								<li><a href="{% url 'invoices' %}">Invoices</a></li>
+								<li><a href="{% url 'payments' %}">Payments</a></li>
+								<li><a href="{% url 'expenses' %}">Expenses</a></li>
+								<li><a href="{% url 'taxes' %}">Taxes</a></li>
+								<li><a href="{% url 'provident-fund' %}">Provident Fund</a></li>
 							</ul>
 						</li>
 						<li class="submenu">
 							<a href="#"><i class="fa fa-book"></i> <span> Payroll </span> <span class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="salary.html"> Employee Salary </a></li>
-								<li><a href="salary-view.html"> Payslip </a></li>
+								<li><a href="{% url 'salary' %}"> Employee Salary </a></li>
+								<li><a href="{% url 'salary-view' %}"> Payslip </a></li>
 							</ul>
 						</li>
                         <li>
-                            <a href="chat.html"><i class="fa fa-comments"></i> <span>Chat</span> <span class="badge badge-pill bg-primary float-right">5</span></a>
+                            <a href="{% url 'Chat' %}"><i class="fa fa-comments"></i> <span>Chat</span> <span class="badge badge-pill bg-primary float-right">5</span></a>
                         </li>
                         <li class="submenu">
                             <a href="#"><i class="fa fa-video-camera camera"></i> <span> Calls</span> <span class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a href="voice-call.html">Voice Call</a></li>
                                 <li><a href="video-call.html">Video Call</a></li>
-                                <li><a href="incoming-call.html">Incoming Call</a></li>
+                                <li><a href="{% url 'incoming-call' %}">Incoming Call</a></li>
                             </ul>
                         </li>
                         <li class="submenu">
                             <a href="#"><i class="fa fa-envelope"></i> <span> Email</span> <span class="menu-arrow"></span></a>
                             <ul style="display: none;">
-                                <li><a href="compose.html">Compose Mail</a></li>
-                                <li><a href="inbox.html">Inbox</a></li>
-                                <li><a href="mail-view.html">Mail View</a></li>
+                                <li><a href="{% url 'compose' %}">Compose Mail</a></li>
+                                <li><a href="{% url 'inbox' %}">Inbox</a></li>
+                                <li><a href="{% url 'mail-view' %}">Mail View</a></li>
                             </ul>
                         </li>
                         <li class="submenu">
                             <a href="#"><i class="fa fa-commenting-o"></i> <span> Blog</span> <span class="menu-arrow"></span></a>
                             <ul style="display: none;">
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="blog-details.html">Blog View</a></li>
-                                <li><a href="add-blog.html">Add Blog</a></li>
-                                <li><a href="edit-blog.html">Edit Blog</a></li>
+                                <li><a href="{% url 'blog' %}">Blog</a></li>
+                                <li><a href="{% url 'blog-details' %}">Blog View</a></li>
+                                <li><a href="{% url 'Add-blog' %}">Add Blog</a></li>
+                                <li><a href="{% url 'edit-blog' %}">Edit Blog</a></li>
                             </ul>
                         </li>
 						<li>
-							<a href="assets.html"><i class="fa fa-cube"></i> <span>Assets</span></a>
+							<a href="{% url 'Asset' %}"><i class="fa fa-cube"></i> <span>Assets</span></a>
 						</li>
 						<li>
-							<a href="activities.html"><i class="fa fa-bell-o"></i> <span>Activities</span></a>
+							<a href="{% url 'Activities' %}"><i class="fa fa-bell-o"></i> <span>Activities</span></a>
 						</li>
 						<li class="submenu">
 							<a href="#"><i class="fa fa-flag-o"></i> <span> Reports </span> <span class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="expense-reports.html"> Expense Report </a></li>
-								<li><a href="invoice-reports.html"> Invoice Report </a></li>
+								<li><a href="{% url 'expense-report' %}"> Expense Report </a></li>
+								<li><a href="{% url 'invoice-reports' %}"> Invoice Report </a></li>
 							</ul>
 						</li>
                         <li>
-                            <a href="settings.html"><i class="fa fa-cog"></i> <span>Settings</span></a>
+                            <a href="{% url 'settings' %}"><i class="fa fa-cog"></i> <span>Settings</span></a>
                         </li>
                         <li class="menu-title">UI Elements</li>
                         <li class="submenu">
                             <a href="#"><i class="fa fa-laptop"></i> <span> Components</span> <span class="menu-arrow"></span></a>
                             <ul style="display: none;">
-                                <li><a href="uikit.html">UI Kit</a></li>
-                                <li><a href="typography.html">Typography</a></li>
-                                <li><a href="tabs.html">Tabs</a></li>
+                                <li><a href="{% url 'uikit' %}">UI Kit</a></li>
+                                <li><a href="{% url 'typography' %}">Typography</a></li>
+                                <li><a href="{% url 'tabs' %}">Tabs</a></li>
                             </ul>
                         </li>
                         <li class="submenu">
                             <a href="#"><i class="fa fa-edit"></i> <span> Forms</span> <span class="menu-arrow"></span></a>
                             <ul style="display: none;">
-                                <li><a href="form-basic-inputs.html">Basic Inputs</a></li>
-                                <li><a href="form-input-groups.html">Input Groups</a></li>
-                                <li><a href="form-horizontal.html">Horizontal Form</a></li>
-                                <li><a href="form-vertical.html">Vertical Form</a></li>
+                                <li><a href="{% url 'form-basic-inputs' %}">Basic Inputs</a></li>
+                                <li><a href="{% url 'form-input-groups' %}">Input Groups</a></li>
+                                <li><a href="{% url 'form-horizontal' %}">Horizontal Form</a></li>
+                                <li><a href="{% url 'form-vertical' %}">Vertical Form</a></li>
                             </ul>
                         </li>
                         <li class="submenu">
                             <a href="#"><i class="fa fa-table"></i> <span> Tables</span> <span class="menu-arrow"></span></a>
                             <ul style="display: none;">
-                                <li><a href="tables-basic.html">Basic Tables</a></li>
-                                <li><a href="tables-datatables.html">Data Table</a></li>
+                                <li><a href="{% url 'tables-basics' %}">Basic Tables</a></li>
+                                <li><a href="{% url 'tables-datatables' %}">Data Table</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="calendar.html"><i class="fa fa-calendar"></i> <span>Calendar</span></a>
+                            <a href="{% url 'Calendar' %}"><i class="fa fa-calendar"></i> <span>Calendar</span></a>
                         </li>
                         <li class="menu-title">Extras</li>
                         <li class="submenu">
@@ -366,7 +366,7 @@
 					<div class="col-12 col-md-6 col-lg-8 col-xl-8">
 						<div class="card">
 							<div class="card-header">
-								<h4 class="card-title d-inline-block">Upcoming Appointments</h4> <a href="appointments.html" class="btn btn-primary float-right">View all</a>
+								<h4 class="card-title d-inline-block">Upcoming Appointments</h4> <a href="{% url 'Appointments' %}" class="btn btn-primary float-right">View all</a>
 							</div>
 							<div class="card-body p-0">
 								<div class="table-responsive">
@@ -451,7 +451,7 @@
 											<tr>
 												<td style="min-width: 200px;">
 													<a class="avatar" href="profile.html">B</a>
-													<h2><a href="profile.html">Bernardo Galaviz <span>New York, USA</span></a></h2>
+													<h2><a href="{% url 'profile' %}">Bernardo Galaviz <span>New York, USA</span></a></h2>
 												</td>                 
 												<td>
 													<h5 class="time-title p-0">Appointment With</h5>
@@ -462,7 +462,7 @@
 													<p>7.00 PM</p>
 												</td>
 												<td class="text-right">
-													<a href="appointments.html" class="btn btn-outline-primary take-btn">Take up</a>
+													<a href="{% url 'Appointments' %}" class="btn btn-outline-primary take-btn">Take up</a>
 												</td>
 											</tr>
 										</tbody>
@@ -481,7 +481,7 @@
                                     <li>
                                         <div class="contact-cont">
                                             <div class="float-left user-img m-r-10">
-                                                <a href="profile.html" title="John Doe"><img src="assets/img/user.jpg" alt="" class="w-40 rounded-circle"><span class="status online"></span></a>
+                                                <a href="{% url 'profile' %}" title="John Doe"><img src="{% static 'images/user.jpg' %}" alt="" class="w-40 rounded-circle"><span class="status online"></span></a>
                                             </div>
                                             <div class="contact-info">
                                                 <span class="contact-name text-ellipsis">John Doe</span>
@@ -492,7 +492,7 @@
                                     <li>
                                         <div class="contact-cont">
                                             <div class="float-left user-img m-r-10">
-                                                <a href="profile.html" title="Richard Miles"><img src="assets/img/user.jpg" alt="" class="w-40 rounded-circle"><span class="status offline"></span></a>
+                                                <a href="{% url 'profile' %}" title="Richard Miles"><img src="{% static 'images/user.jpg' %}" alt="" class="w-40 rounded-circle"><span class="status offline"></span></a>
                                             </div>
                                             <div class="contact-info">
                                                 <span class="contact-name text-ellipsis">Richard Miles</span>
@@ -503,7 +503,7 @@
                                     <li>
                                         <div class="contact-cont">
                                             <div class="float-left user-img m-r-10">
-                                                <a href="profile.html" title="John Doe"><img src="assets/img/user.jpg" alt="" class="w-40 rounded-circle"><span class="status away"></span></a>
+                                                <a href="{% url 'profile' %}" title="John Doe"><img src="{% static 'images/user.jpg' %}" alt="" class="w-40 rounded-circle"><span class="status away"></span></a>
                                             </div>
                                             <div class="contact-info">
                                                 <span class="contact-name text-ellipsis">John Doe</span>
@@ -514,7 +514,7 @@
                                     <li>
                                         <div class="contact-cont">
                                             <div class="float-left user-img m-r-10">
-                                                <a href="profile.html" title="Richard Miles"><img src="assets/img/user.jpg" alt="" class="w-40 rounded-circle"><span class="status online"></span></a>
+                                                <a href="{% url 'profile' %}" title="Richard Miles"><img src="{% static 'images/user.jpg' %}" alt="" class="w-40 rounded-circle"><span class="status online"></span></a>
                                             </div>
                                             <div class="contact-info">
                                                 <span class="contact-name text-ellipsis">Richard Miles</span>
@@ -525,7 +525,7 @@
                                     <li>
                                         <div class="contact-cont">
                                             <div class="float-left user-img m-r-10">
-                                                <a href="profile.html" title="John Doe"><img src="assets/img/user.jpg" alt="" class="w-40 rounded-circle"><span class="status offline"></span></a>
+                                                <a href="{% url 'profile' %}" title="John Doe"><img src="{% static 'images/user.jpg' %}" alt="" class="w-40 rounded-circle"><span class="status offline"></span></a>
                                             </div>
                                             <div class="contact-info">
                                                 <span class="contact-name text-ellipsis">John Doe</span>
@@ -536,7 +536,7 @@
                                     <li>
                                         <div class="contact-cont">
                                             <div class="float-left user-img m-r-10">
-                                                <a href="profile.html" title="Richard Miles"><img src="assets/img/user.jpg" alt="" class="w-40 rounded-circle"><span class="status away"></span></a>
+                                                <a href="{% url 'profile' %}" title="Richard Miles"><img src="{% static 'images/user.jpg' %}" alt="" class="w-40 rounded-circle"><span class="status away"></span></a>
                                             </div>
                                             <div class="contact-info">
                                                 <span class="contact-name text-ellipsis">Richard Miles</span>
@@ -547,7 +547,7 @@
                                 </ul>
                             </div>
                             <div class="card-footer text-center bg-white">
-                                <a href="doctors.html" class="text-muted">View all Doctors</a>
+                                <a href="{% url 'Doctors' %}" class="text-muted">View all Doctors</a>
                             </div>
                         </div>
                     </div>
@@ -556,7 +556,7 @@
 					<div class="col-12 col-md-6 col-lg-8 col-xl-8">
 						<div class="card">
 							<div class="card-header">
-								<h4 class="card-title d-inline-block">New Patients </h4> <a href="patients.html" class="btn btn-primary float-right">View all</a>
+								<h4 class="card-title d-inline-block">New Patients </h4> <a href="{% url 'patients' %}" class="btn btn-primary float-right">View all</a>
 							</div>
 							<div class="card-block">
 								<div class="table-responsive">
@@ -564,7 +564,7 @@
 										<tbody>
 											<tr>
 												<td>
-													<img width="28" height="28" class="rounded-circle" src="assets/img/user.jpg" alt=""> 
+													<img width="28" height="28" class="rounded-circle" src="{% static 'images/user.jpg' %}" alt=""> 
 													<h2>John Doe</h2>
 												</td>
 												<td>Johndoe21@gmail.com</td>
@@ -573,7 +573,7 @@
 											</tr>
 											<tr>
 												<td>
-													<img width="28" height="28" class="rounded-circle" src="assets/img/user.jpg" alt=""> 
+													<img width="28" height="28" class="rounded-circle" src="{% static 'images/user.jpg' %}" alt=""> 
 													<h2>Richard</h2>
 												</td>
 												<td>Richard123@yahoo.com</td>
@@ -582,7 +582,7 @@
 											</tr>
 											<tr>
 												<td>
-													<img width="28" height="28" class="rounded-circle" src="assets/img/user.jpg" alt=""> 
+													<img width="28" height="28" class="rounded-circle" src="{% static 'images/user.jpg' %}" alt=""> 
 													<h2>Villiam</h2>
 												</td>
 												<td>Richard123@yahoo.com</td>
@@ -591,7 +591,7 @@
 											</tr>
 											<tr>
 												<td>
-													<img width="28" height="28" class="rounded-circle" src="assets/img/user.jpg" alt=""> 
+													<img width="28" height="28" class="rounded-circle" src="{% static 'images/user.jpg' %}" alt=""> 
 													<h2>Martin</h2>
 												</td>
 												<td>Richard123@yahoo.com</td>
@@ -678,7 +678,7 @@
                     <div class="drop-scroll msg-list-scroll" id="msg_list">
                         <ul class="list-box">
                             <li>
-                                <a href="chat.html">
+                                <a href="{% url 'Chat'%}">
                                     <div class="list-item">
                                         <div class="list-left">
                                             <span class="avatar">R</span>
@@ -693,7 +693,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="chat.html">
+                                <a href="{% url 'Chat' %}">
                                     <div class="list-item new-message">
                                         <div class="list-left">
                                             <span class="avatar">J</span>
@@ -708,7 +708,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="chat.html">
+                                <a href="{% url 'Chat' %}">
                                     <div class="list-item">
                                         <div class="list-left">
                                             <span class="avatar">T</span>
@@ -723,7 +723,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="chat.html">
+                                <a href="{% url 'Chat' %}">
                                     <div class="list-item">
                                         <div class="list-left">
                                             <span class="avatar">M</span>
@@ -738,7 +738,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="chat.html">
+                                <a href="{% url 'Chat' %}">
                                     <div class="list-item">
                                         <div class="list-left">
                                             <span class="avatar">C</span>
@@ -753,7 +753,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="chat.html">
+                                <a href="{% url 'Chat' %}">
                                     <div class="list-item">
                                         <div class="list-left">
                                             <span class="avatar">D</span>
@@ -768,7 +768,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="chat.html">
+                                <a href="{% url 'Chat' %}">
                                     <div class="list-item">
                                         <div class="list-left">
                                             <span class="avatar">B</span>
@@ -783,7 +783,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="chat.html">
+                                <a href="{% url 'Chat'%}">
                                     <div class="list-item">
                                         <div class="list-left">
                                             <span class="avatar">R</span>
@@ -798,7 +798,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="chat.html">
+                                <a href="{% url 'Chat' %}">
                                     <div class="list-item">
                                         <div class="list-left">
                                             <span class="avatar">C</span>
@@ -813,7 +813,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="chat.html">
+                                <a href="{% url 'Chat' %}">
                                     <div class="list-item">
                                         <div class="list-left">
                                             <span class="avatar">M</span>
@@ -828,7 +828,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="chat.html">
+                                <a href="{% url 'Chat' %}">
                                     <div class="list-item">
                                         <div class="list-left">
                                             <span class="avatar">J</span>
@@ -843,7 +843,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="chat.html">
+                                <a href="{% url 'Chat' %}">
                                     <div class="list-item">
                                         <div class="list-left">
                                             <span class="avatar">L</span>
@@ -858,7 +858,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="chat.html">
+                                <a href="{% url 'Chat' %}">
                                     <div class="list-item">
                                         <div class="list-left">
                                             <span class="avatar">T</span>
@@ -875,7 +875,7 @@
                         </ul>
                     </div>
                     <div class="topnav-dropdown-footer">
-                        <a href="chat.html">See all messages</a>
+                        <a href="{% url 'Chat' %}">See all messages</a>
                     </div>
                 </div>
             </div>

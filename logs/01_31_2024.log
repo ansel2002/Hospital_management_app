@@ -1,3 +1,153 @@
+<<<<<<< HEAD
+2024-01-31 13:45:29,706 Not Found: /favicon.ico
+2024-01-31 15:48:40,490 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
+2024-01-31 15:50:56,016 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
+2024-01-31 15:51:11,687 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
+2024-01-31 15:51:18,263 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
+2024-01-31 15:51:32,693 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
+2024-01-31 15:51:40,685 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
+2024-01-31 15:51:46,344 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
+2024-01-31 15:52:10,112 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
+2024-01-31 15:52:16,543 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
+2024-01-31 15:53:50,724 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
+2024-01-31 15:54:17,299 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
+2024-01-31 15:57:45,931 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 15:57:56,307 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 15:58:04,093 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 15:58:29,037 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 15:59:16,002 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 15:59:26,442 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 15:59:40,868 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 15:59:57,973 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:00:05,103 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:00:21,331 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:00:39,883 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:00:49,483 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:00:59,554 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:01:12,728 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:01:24,638 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:02:09,736 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:02:30,385 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:02:56,685 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:03:10,691 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:03:21,420 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:04:13,770 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:04:23,218 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:50:00,621 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:50:52,803 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:51:01,585 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:51:16,989 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:51:26,139 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:51:35,524 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:51:44,858 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 16:52:30,198 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:11:47,134 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:11:54,577 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:12:01,952 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:12:15,694 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:12:33,765 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:21:26,144 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:21:32,010 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:21:39,672 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:21:48,172 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:22:11,582 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:22:24,904 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\urls.py changed, reloading.
+2024-01-31 17:22:35,077 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\urls.py changed, reloading.
+2024-01-31 17:22:45,894 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\urls.py changed, reloading.
+2024-01-31 17:22:52,476 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\urls.py changed, reloading.
+2024-01-31 17:23:11,965 Not Found: /favicon.ico
+2024-01-31 17:23:36,826 Internal Server Error: /Pharmacy/viewRequest
+Traceback (most recent call last):
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view Pharmacy.views.viewRequest didn't return an HttpResponse object. It returned None instead.
+2024-01-31 17:24:22,394 Internal Server Error: /Pharmacy/viewRequest
+Traceback (most recent call last):
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view Pharmacy.views.viewRequest didn't return an HttpResponse object. It returned None instead.
+2024-01-31 17:25:37,448 Internal Server Error: /Pharmacy/viewRequest
+Traceback (most recent call last):
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view Pharmacy.views.viewRequest didn't return an HttpResponse object. It returned None instead.
+2024-01-31 17:26:28,743 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:26:38,898 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\urls.py changed, reloading.
+2024-01-31 17:26:48,307 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\urls.py changed, reloading.
+2024-01-31 17:26:52,066 Not Found: /Pharmacy/viewRequest
+2024-01-31 17:28:03,826 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:28:21,129 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:28:25,976 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:28:41,102 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:28:48,542 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:28:53,698 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:28:58,142 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:29:09,011 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:29:18,550 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:29:23,877 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:38:24,791 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
+2024-01-31 17:39:03,974 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
+2024-01-31 17:39:36,403 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:39:44,291 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:39:59,920 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
+2024-01-31 17:40:24,353 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
+2024-01-31 17:40:38,170 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
+2024-01-31 17:53:52,382 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
+2024-01-31 17:54:01,565 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
+2024-01-31 17:54:06,598 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
+2024-01-31 17:54:21,690 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\models.py changed, reloading.
+2024-01-31 17:54:34,164 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:54:41,661 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:54:47,778 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:55:06,298 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:55:12,785 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:58:21,199 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:58:35,127 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 17:58:46,750 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 18:10:47,796 Not Found: /Pharmacy/viewRequest
+2024-01-31 18:11:10,330 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\urls.py changed, reloading.
+2024-01-31 18:11:22,799 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\urls.py changed, reloading.
+2024-01-31 18:11:33,050 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\urls.py changed, reloading.
+2024-01-31 18:11:41,011 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\urls.py changed, reloading.
+2024-01-31 18:11:48,018 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\urls.py changed, reloading.
+2024-01-31 18:12:05,014 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\urls.py changed, reloading.
+2024-01-31 18:12:18,793 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\urls.py changed, reloading.
+2024-01-31 18:12:25,402 Internal Server Error: /Pharmacy/viewRequest
+Traceback (most recent call last):
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py", line 98, in viewRequest
+    return render(request,'pharmacy\\request.html', {'request_details':request_details})
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: pharmacy\request.html
+2024-01-31 18:13:12,538 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 18:13:21,059 Internal Server Error: /Pharmacy/viewRequest
+Traceback (most recent call last):
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: Pharmacy_medicinerequest
+=======
 2024-01-31 17:50:45,851 Not Found: /favicon.ico
 2024-01-31 17:51:18,515 Not Found: /doctor/Dashboard
 2024-01-31 17:52:09,675 Internal Server Error: /Doctor/ADD_appointment
@@ -585,10 +735,140 @@ Traceback (most recent call last):
   File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
     return Database.Cursor.execute(self, query, params)
 sqlite3.IntegrityError: UNIQUE constraint failed: auth_user.username
+>>>>>>> 920dad3e740d90427c55663ab7b779c08ae30acb
 
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
+<<<<<<< HEAD
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py", line 98, in viewRequest
+    return render(request,'pharmacy\\viewRequest.html', {'request_details':request_details})
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: Pharmacy_medicinerequest
+2024-01-31 18:21:21,386 Forbidden (CSRF token missing.): /Pharmacy/contactUs
+2024-01-31 18:23:34,555 Forbidden (CSRF token missing.): /Pharmacy/contactUs
+2024-01-31 18:25:10,196 Forbidden (CSRF token missing.): /Pharmacy/contactUs
+2024-01-31 18:25:14,235 Forbidden (CSRF token missing.): /Pharmacy/contactUs
+2024-01-31 18:25:18,674 Forbidden (CSRF token missing.): /Pharmacy/contactUs
+2024-01-31 18:29:11,546 Forbidden (CSRF token missing.): /Pharmacy/contactUs
+2024-01-31 18:30:06,182 Forbidden (CSRF token missing.): /Pharmacy/contactUs
+2024-01-31 18:32:33,906 Forbidden (CSRF token missing.): /Pharmacy/contactUs
+2024-01-31 18:33:00,853 Forbidden (CSRF token missing.): /Pharmacy/contactUs
+2024-01-31 18:33:04,856 Forbidden (CSRF token missing.): /Pharmacy/contactUs
+2024-01-31 18:35:19,816 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 18:42:22,605 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 18:42:32,979 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 18:42:52,992 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 18:43:24,517 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 21:30:07,901 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 21:31:18,637 Internal Server Error: /Pharmacy/contactUs
+Traceback (most recent call last):
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py", line 25, in contact
+    request_details.save()
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1745, in as_sql
+    value_rows = [
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1746, in <listcomp>
+    [
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\__init__.py", line 954, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\__init__.py", line 1469, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\__init__.py", line 1430, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']
+2024-01-31 21:33:02,706 Not Found: /Pharmacy/Pharmacy/contact.html
+2024-01-31 21:33:15,551 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 21:33:19,864 Not Found: /Pharmacy/Pharmacy/contact.html
+2024-01-31 21:33:26,555 Not Found: /Pharmacy/Pharmacy/contact
+2024-01-31 21:33:41,525 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+2024-01-31 21:33:47,330 Not Found: /Pharmacy/Pharmacy/contact
+2024-01-31 21:33:47,416 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Pharmacy\views.py changed, reloading.
+=======
   File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
     response = get_response(request)
   File "C:\Users\coolg\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
@@ -967,3 +1247,4 @@ django.db.utils.IntegrityError: UNIQUE constraint failed: auth_user.username
 2024-01-31 20:26:41,152 Not Found: /service.html
 2024-01-31 20:27:35,520 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
 2024-01-31 20:27:35,520 E:\PG DATA SCIENCE\Hospital_management_app\Admin\views.py changed, reloading.
+>>>>>>> 920dad3e740d90427c55663ab7b779c08ae30acb

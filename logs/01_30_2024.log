@@ -1,0 +1,221 @@
+2024-01-30 20:08:06,827 C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\Admin\views.py changed, reloading.
+2024-01-30 20:08:21,337 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ardra.ks\Desktop\Full Stack Development\Hospital_management_app\ManagementApp\views.py", line 6, in index
+    return render(request, "Admin/index.html", context={})
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'homepage' not found. 'homepage' is not a valid view function or pattern name.
+2024-01-30 20:08:21,809 Not Found: /favicon.ico
+2024-01-30 20:11:42,882 Not Found: /pharmacy/homepage
+2024-01-30 20:11:53,183 Not Found: /pharmacy/home
+2024-01-30 20:11:53,581 Not Found: /pharmacy/home
+2024-01-30 20:12:16,250 Not Found: /pharmacy/homePage
+2024-01-30 20:12:24,727 Not Found: /pharmacy/homePage
+2024-01-30 20:12:29,345 Not Found: /pharmacy/home
+2024-01-30 20:12:29,659 Not Found: /pharmacy/home
+2024-01-30 20:12:45,951 Not Found: /pharmacy/store
+2024-01-30 20:26:52,798 Not Found: /patientclick
+2024-01-30 20:26:58,484 Not Found: /assets/img/bg-doctor.png
+2024-01-30 20:26:58,733 Not Found: /assets/img/doctors/doctor_1.jpg
+2024-01-30 20:26:58,797 Not Found: /assets/img/doctors/doctor_2.jpg
+2024-01-30 20:26:58,848 Not Found: /assets/img/doctors/doctor_3.jpg
+2024-01-30 20:26:58,979 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-30 20:26:58,998 Not Found: /assets/img/person/person_1.jpg
+2024-01-30 20:26:59,089 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-30 20:26:59,166 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-30 20:26:59,193 Not Found: /assets/img/person/person_2.jpg
+2024-01-30 20:26:59,208 Not Found: /assets/img/mobile_app.png
+2024-01-30 20:26:59,271 Not Found: /assets/img/google_play.svg
+2024-01-30 20:26:59,306 Not Found: /assets/img/app_store.svg
+2024-01-30 20:26:59,415 Not Found: /assets/img/banner-pattern.svg
+2024-01-30 20:27:26,160 Not Found: /assets/img/bg-doctor.png
+2024-01-30 20:27:26,253 Not Found: /assets/img/doctors/doctor_1.jpg
+2024-01-30 20:27:26,259 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-30 20:27:26,290 Not Found: /assets/img/doctors/doctor_3.jpg
+2024-01-30 20:27:26,293 Not Found: /assets/img/doctors/doctor_2.jpg
+2024-01-30 20:27:26,303 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-30 20:27:26,306 Not Found: /assets/img/person/person_1.jpg
+2024-01-30 20:27:26,405 Not Found: /assets/img/person/person_2.jpg
+2024-01-30 20:27:26,410 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-30 20:27:26,504 Not Found: /assets/img/mobile_app.png
+2024-01-30 20:27:26,507 Not Found: /assets/img/google_play.svg
+2024-01-30 20:27:26,510 Not Found: /assets/img/banner-pattern.svg
+2024-01-30 20:27:26,523 Not Found: /assets/img/app_store.svg
+2024-01-30 20:27:47,330 Not Found: /assets/img/bg-doctor.png
+2024-01-30 20:27:47,338 Not Found: /assets/img/doctors/doctor_2.jpg
+2024-01-30 20:27:47,383 Not Found: /assets/img/doctors/doctor_1.jpg
+2024-01-30 20:27:47,388 Not Found: /assets/img/person/person_1.jpg
+2024-01-30 20:27:47,391 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-30 20:27:47,400 Not Found: /assets/img/doctors/doctor_3.jpg
+2024-01-30 20:27:48,318 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-30 20:27:48,332 Not Found: /assets/img/person/person_2.jpg
+2024-01-30 20:27:48,342 Not Found: /assets/img/google_play.svg
+2024-01-30 20:27:48,350 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-30 20:27:48,355 Not Found: /assets/img/mobile_app.png
+2024-01-30 20:27:48,363 Not Found: /assets/img/app_store.svg
+2024-01-30 20:27:48,406 Not Found: /assets/img/banner-pattern.svg
+2024-01-30 20:27:52,338 Not Found: /assets/img/mobile_app.png
+2024-01-30 20:27:52,345 Not Found: /assets/img/banner-pattern.svg
+2024-01-30 20:27:52,349 Not Found: /assets/img/app_store.svg
+2024-01-30 20:27:52,361 Not Found: /assets/img/google_play.svg
+2024-01-30 20:27:52,367 Not Found: /assets/img/bg_image_1.jpg
+2024-01-30 20:29:09,782 Internal Server Error: /Doctor/login/
+Traceback (most recent call last):
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration/login.html
+2024-01-30 20:30:55,593 Not Found: /Doctor
+2024-01-30 20:40:06,833 Not Found: /assets/img/bg-doctor.png
+2024-01-30 20:40:07,007 Not Found: /assets/img/doctors/doctor_3.jpg
+2024-01-30 20:40:07,024 Not Found: /assets/img/doctors/doctor_1.jpg
+2024-01-30 20:40:07,033 Not Found: /assets/img/doctors/doctor_2.jpg
+2024-01-30 20:40:07,147 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-30 20:40:07,713 Not Found: /assets/img/person/person_1.jpg
+2024-01-30 20:40:07,716 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-30 20:40:07,801 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-30 20:40:07,846 Not Found: /assets/img/person/person_2.jpg
+2024-01-30 20:40:07,918 Not Found: /assets/img/google_play.svg
+2024-01-30 20:40:07,923 Not Found: /assets/img/app_store.svg
+2024-01-30 20:40:07,931 Not Found: /assets/img/mobile_app.png
+2024-01-30 20:40:07,936 Not Found: /assets/img/banner-pattern.svg
+2024-01-30 20:46:16,914 Not Found: /assets/img/bg-doctor.png
+2024-01-30 20:46:17,094 Not Found: /assets/img/doctors/doctor_1.jpg
+2024-01-30 20:46:17,109 Not Found: /assets/img/doctors/doctor_3.jpg
+2024-01-30 20:46:17,158 Not Found: /assets/img/doctors/doctor_2.jpg
+2024-01-30 20:46:17,209 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-30 20:46:17,277 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-30 20:46:17,284 Not Found: /assets/img/person/person_1.jpg
+2024-01-30 20:46:17,505 Not Found: /assets/img/google_play.svg
+2024-01-30 20:46:17,509 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-30 20:46:17,541 Not Found: /assets/img/person/person_2.jpg
+2024-01-30 20:46:17,545 Not Found: /assets/img/banner-pattern.svg
+2024-01-30 20:46:17,552 Not Found: /assets/img/mobile_app.png
+2024-01-30 20:46:17,557 Not Found: /assets/img/app_store.svg
+2024-01-30 20:46:35,352 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-30 20:46:35,355 Not Found: /assets/img/doctors/doctor_3.jpg
+2024-01-30 20:46:35,363 Not Found: /assets/img/bg-doctor.png
+2024-01-30 20:46:35,377 Not Found: /assets/img/doctors/doctor_2.jpg
+2024-01-30 20:46:35,382 Not Found: /assets/img/person/person_1.jpg
+2024-01-30 20:46:35,418 Not Found: /assets/img/doctors/doctor_1.jpg
+2024-01-30 20:46:35,642 Not Found: /assets/img/app_store.svg
+2024-01-30 20:46:35,642 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-30 20:46:35,678 Not Found: /assets/img/mobile_app.png
+2024-01-30 20:46:35,687 Not Found: /assets/img/google_play.svg
+2024-01-30 20:46:35,709 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-30 20:46:35,724 Not Found: /assets/img/person/person_2.jpg
+2024-01-30 20:46:35,759 Not Found: /assets/img/banner-pattern.svg
+2024-01-30 20:46:48,121 Internal Server Error: /Doctor/login/
+Traceback (most recent call last):
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\Ardra.ks\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration/login.html
+2024-01-30 20:50:39,821 Not Found: /patientclick
+2024-01-30 20:51:08,858 Not Found: /assets/img/bg-doctor.png
+2024-01-30 20:51:08,907 Not Found: /assets/img/doctors/doctor_1.jpg
+2024-01-30 20:51:08,966 Not Found: /assets/img/doctors/doctor_2.jpg
+2024-01-30 20:51:08,998 Not Found: /assets/img/doctors/doctor_3.jpg
+2024-01-30 20:51:09,059 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-30 20:51:09,259 Not Found: /assets/img/person/person_1.jpg
+2024-01-30 20:51:09,259 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-30 20:51:09,276 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-30 20:51:09,283 Not Found: /assets/img/mobile_app.png
+2024-01-30 20:51:09,286 Not Found: /assets/img/person/person_2.jpg
+2024-01-30 20:51:09,311 Not Found: /assets/img/google_play.svg
+2024-01-30 20:51:09,347 Not Found: /assets/img/banner-pattern.svg
+2024-01-30 20:51:09,358 Not Found: /assets/img/app_store.svg
+2024-01-30 20:51:35,912 Not Found: /assets/img/bg-doctor.png
+2024-01-30 20:51:36,054 Not Found: /assets/img/person/person_1.jpg
+2024-01-30 20:51:36,072 Not Found: /assets/img/doctors/doctor_2.jpg
+2024-01-30 20:51:36,075 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-30 20:51:36,082 Not Found: /assets/img/doctors/doctor_1.jpg
+2024-01-30 20:51:36,090 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-30 20:51:36,095 Not Found: /assets/img/doctors/doctor_3.jpg
+2024-01-30 20:51:36,175 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-30 20:51:36,253 Not Found: /assets/img/app_store.svg
+2024-01-30 20:51:36,261 Not Found: /assets/img/person/person_2.jpg
+2024-01-30 20:51:36,264 Not Found: /assets/img/mobile_app.png
+2024-01-30 20:51:36,269 Not Found: /assets/img/banner-pattern.svg
+2024-01-30 20:51:36,277 Not Found: /assets/img/google_play.svg
+2024-01-30 20:52:55,033 Not Found: /assets/img/bg-doctor.png
+2024-01-30 20:52:55,142 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-30 20:52:55,150 Not Found: /assets/img/doctors/doctor_1.jpg
+2024-01-30 20:52:55,154 Not Found: /assets/img/doctors/doctor_2.jpg
+2024-01-30 20:52:55,160 Not Found: /assets/img/person/person_1.jpg
+2024-01-30 20:52:55,162 Not Found: /assets/img/doctors/doctor_3.jpg
+2024-01-30 20:52:55,167 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-30 20:52:55,589 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-30 20:52:55,650 Not Found: /assets/img/banner-pattern.svg
+2024-01-30 20:52:55,652 Not Found: /assets/img/google_play.svg
+2024-01-30 20:52:55,657 Not Found: /assets/img/app_store.svg
+2024-01-30 20:52:55,663 Not Found: /assets/img/person/person_2.jpg
+2024-01-30 20:52:55,669 Not Found: /assets/img/mobile_app.png
+2024-01-30 21:00:17,816 Not Found: /assets/img/bg-doctor.png
+2024-01-30 21:00:17,880 Not Found: /assets/img/doctors/doctor_1.jpg
+2024-01-30 21:00:17,910 Not Found: /assets/img/doctors/doctor_2.jpg
+2024-01-30 21:00:17,992 Not Found: /assets/img/blog/blog_1.jpg
+2024-01-30 21:00:18,046 Not Found: /assets/img/person/person_1.jpg
+2024-01-30 21:00:18,066 Not Found: /assets/img/doctors/doctor_3.jpg
+2024-01-30 21:00:18,083 Not Found: /assets/img/blog/blog_3.jpg
+2024-01-30 21:00:18,096 Not Found: /assets/img/blog/blog_2.jpg
+2024-01-30 21:00:18,103 Not Found: /assets/img/person/person_2.jpg
+2024-01-30 21:00:18,107 Not Found: /assets/img/mobile_app.png
+2024-01-30 21:00:18,185 Not Found: /assets/img/banner-pattern.svg
+2024-01-30 21:00:18,193 Not Found: /assets/img/app_store.svg
+2024-01-30 21:00:18,198 Not Found: /assets/img/google_play.svg
