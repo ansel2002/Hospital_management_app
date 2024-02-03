@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extrahead %}
+
+<link href="https://fonts.googleapis.com/css?family=Rubik:400,700|Crimson+Text:400,400i" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'fonts/icomoon/style.css' %}">
+<link rel="stylesheet" type="text/css"
+  href="{% static 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' %}" />
+<link rel="stylesheet" href="{% static 'css/p_bootstrap.min.css' %}">
+<link rel="stylesheet" href="{% static 'css/p_magnific-popup.css' %}">
+<link rel="stylesheet" href="{% static 'css/p_jquery-ui.css' %}">
+<link rel="stylesheet" href="{% static 'css/p_owl.carousel.min.css' %}">
+<link rel="stylesheet" href="{% static 'css/p_owl.theme.default.min.css' %}">
+<link rel="stylesheet" href="{% static 'css/p_aos.css' %}">
+
+<link rel="stylesheet" href="{% static 'css/p_style.css' %}">
+<link rel="stylesheet" href="{% static 'css/custom.css' %}">
+
+
+{% endblock extrahead %}
+
+{% block content %}
+
+<div class="site-wrap">
+
+
+  <div class="site-navbar py-2">
+
+    <div class="search-wrap">
+      <div class="container">
+        <a href="#" class="search-close js-search-close"><span class="icon-close2"></span></a>
+        <form action="#" method="post">
+          <input type="text" class="form-control" placeholder="Search keyword and hit enter...">
+        </form>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <div class="site-logo">
+            <a href="homePage" class="js-logo-clone">Pharma</a>
+          </div>
+        </div>
+        <div class="main-nav d-none d-lg-block">
+          <nav class="site-navigation text-right text-md-center" role="navigation">
+            <ul class="site-menu js-clone-nav d-none d-lg-block">
+              <li><a href="homePage">Home</a></li>
+              <li class="active"><a href="store">Store</a></li>
+              
+              <li><a href="aboutUs">About</a></li>
+              <li><a href="contactUs">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="icons">
+          <a href="#" class="icons-btn d-inline-block js-search-open"><span class="icon-search"></span></a>
+          <a href="cart" class="icons-btn d-inline-block bag">
+            <span class="icon-shopping-bag"></span>
+            <span class="number">2</span>
+          </a>
+          <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span
+              class="icon-menu"></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+       
+    <div class="col-md-12">
+     
+    </div>
+    <div class="col-sm-6"><img src="{% static '/images/pharma/admin.png' %}" alt="Image placeholder" style="height: 300px; padding-left: 20px; padding-top: 30px;" >
+    </div>
+    <div class = col-6>
+    <table style="width:80%; height: 100px; padding-top: 100px;">
+        <br><br><br><br><br>
+        <tr>
+
+          <th>Employee ID</th>
+          <td>Bill Gates</td>
+        </tr>
+        <tr>
+          <th>Name</th>
+          <td>555 77 854</td>
+        </tr>
+        <tr>
+          <th>Date of Birth</th>
+          <td>555 77 855</td>
+        </tr>
+        <th>Qualification</th>
+          <td>Bill Gates</td>
+        </tr>
+        <tr>
+          <th>Email</th>
+          <td>555 77 854</td>
+        </tr>
+        <tr>
+          <th>Contact Number</th>
+          <td>555 77 855</td>
+        </tr>
+      </table>
+      </div>
+      </div>
+      </div>
+    
+  {% endblock content %}
+
+{% block extrafooter %}
+<script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+<script src="{% static 'js/jquery-ui.js' %}"></script>
+<script src="{% static 'js/popper.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/owl.carousel.min.js' %}"></script>
+<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+<script src="{% static 'js/aos.js' %}"></script>
+
+<script src="{% static 'js/main.js' %}"></script>
+{% endblock extrafooter %}
