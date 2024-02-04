@@ -43,7 +43,12 @@ def userLogin(request):
         if user is not None:
             login(request, user)
             print(user)
-            return redirect("home-doctor")
+            if user.is_superuser:
+
+             return redirect("aboutus")
+            elif user.is_staff:
+                return redirect("doctor")
+
         else:
             print(user)
             messages.success(
