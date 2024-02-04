@@ -29,6 +29,9 @@ def contact(request):
 def thankyou(request):
     return render(request, "Pharmacy/thankyou.html", context={})
 
+def portal(request):
+    return render(request, "Pharmacy/pharmacy_portal.html", context={})
+
 
 def addProduct(request):
     return render(request, "Pharmacy/product_table.html", context={})
