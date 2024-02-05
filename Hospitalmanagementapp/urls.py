@@ -21,6 +21,7 @@ from ManagementApp.views import index
 
 from Hospitalmanagementapp import settings
 from Admin import views
+from Patient import views,urls
 
 urlpatterns = [
     path("admin/", admin.site.urls),
