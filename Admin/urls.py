@@ -14,6 +14,8 @@ urlpatterns = [
     path('Add-holiday', views.Add_holiday,name='Add-holiday'),
     path('Add-leave-type', views.Add_leave_type,name='Add-leave-type'),
     path('Add-leave', views.Add_leave,name='Add-leave'),
+    path('Add-appointnment', views.Add_Appointment,name='Add-Appointment'),
+
     path('Add-patient', views.Add_patient,name='Add-patient'),
     path('Add-provident-fund', views. Add_provident_fund,name=' Add-provident-fund'),
     path('Add-role', views.Add_role,name='Add-role'),

@@ -21,6 +21,7 @@ from ManagementApp.views import index
 
 from Hospitalmanagementapp import settings
 from Admin import views
+from Patient import views,urls
 
 urlpatterns = [
     path("admin/", admin.site.urls),
@@ -28,8 +29,10 @@ urlpatterns = [
     path("Admin/", include("Admin.urls")),
     path("Pharmacy/", include("Pharmacy.urls")),
     path("Doctor/", include("Doctor.urls")),
-     path("Doctor/", include("django.contrib.auth.urls")),
+    #  path("Doctor/", include("django.contrib.auth.urls")),
     path("Patient/",include("Patient.urls")),
+    #  path("Patient/", include("django.contrib.auth.urls")),
+
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

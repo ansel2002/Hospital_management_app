@@ -1,26 +1,59 @@
-from django.contrib import admin
-from django.urls import path
-from Patient import views
+from django.urls import path, reverse_lazy
+from . import views
+from django.contrib.auth.views import PasswordChangeView, PasswordChangeDoneView
+from .forms import MyPasswordChangeForm
+from django.contrib.auth import views as auth_views
 
-
-
-
-
-
-
-
-
-#---------FOR PATIENT RELATED URLS-------------------------------------
 
 urlpatterns = [
-    
-    path('patient-home', views.patient_home, name='patient-home'),
-    path('patient-dashboard', views.patient_dashboard_view,name='patient-dashboard'),
-    path('patient-appointment', views.patient_appointment_view,name='patient-appointment'),
-    path('patient-book-appointment', views.patient_book_appointment_view,name='patient-book-appointment'),
-    path('patient-view-appointment', views.patient_view_appointment_view,name='patient-view-appointment'),
-    path('patient-view-doctor', views.patient_view_doctor_view,name='patient_view_doctor'),
-    path('searchdoctor', views.search_doctor_view,name='searchdoctor'),
-    path('patient-discharge', views.patient_discharge_view,name='patient-discharge'),    
+    path('', views.index, name='home-page'),
+    path('profile', views.profile, name='profile-page'),
+    path('about', views.about, name='about-page'),
+    path('service', views.service, name='service-page'),
+    path('gallery', views.gallery, name='gallery-page'),
+    path('team', views.team, name='team-page'),
+    path('appointment', views.appointment, name='appointment-page'),
+    path('blog', views.blog, name='blog-page'),
+    path('contact', views.contact, name='contact-page'),
+    path('registration', views.registration, name='registration-page'),
+    path('login', views.UserLogin, name='login-page'),
+    path('logout', views.userLogout, name='logout-page'),
+    path('chngpro', views.changeProfile, name='chngpro-page'),
+    path('appoint/<d_id>', views.makeAppoint, name='appoint-page'),
+    path('change_password/',
+         PasswordChangeView.as_view(
+             template_name='Patient/change_password.html',
+             success_url=reverse_lazy('password_change_done'),
+             form_class=MyPasswordChangeForm
+         ),
+         name='password_change'),
+    path('change_password/done/',
+         PasswordChangeDoneView.as_view(
+             template_name='Patient/password_change_done.html'
+         ),
+         name='password_change_done'),
 
+    path('apphistory', views.appointmentHistory, name="apphist-page"),
+
+    path('password-reset/',
+         auth_views.PasswordResetView.as_view(
+             template_name='Patient/password-reset.html'
+             # success_url=reverse_lazy('password_reset_done')
+         ),
+         name='paswword_reset'),
+    path('password-reset/done/',
+         auth_views.PasswordResetDoneView.as_view(
+             template_name='Patient/password-reset-done.html'
+         ),
+         name='paswword_reset_done'),
+    path('password-reset-confirm/<uidb64>/<token>/',
+         auth_views.PasswordResetConfirmView.as_view(
+             template_name='Patient/password-reset-confirm.html'
+         ),
+         name='paswword_reset_confirm'),
+    path('password-reset-complete/',
+         auth_views.PasswordResetCompleteView.as_view(
+             template_name='Patient/password-reset-complete.html'
+         ),
+         name='paswword_reset_complete'),
 ]

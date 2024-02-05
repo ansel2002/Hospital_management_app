@@ -1,0 +1,122 @@
+{% extends "base.html" %} {% load static %} {% block extrahead %}
+
+<link
+  href="https://fonts.googleapis.com/css?family=Rubik:400,700|Crimson+Text:400,400i"
+  rel="stylesheet"
+/>
+<link rel="stylesheet" href="{% static 'fonts/icomoon/style.css' %}" />
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="{% static 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' %}"
+/>
+<link rel="stylesheet" href="{% static 'css/p_bootstrap.min.css' %}" />
+<link rel="stylesheet" href="{% static 'css/p_magnific-popup.css' %}" />
+<link rel="stylesheet" href="{% static 'css/p_jquery-ui.css' %}" />
+<link rel="stylesheet" href="{% static 'css/p_owl.carousel.min.css' %}" />
+<link rel="stylesheet" href="{% static 'css/p_owl.theme.default.min.css' %}" />
+<link rel="stylesheet" href="{% static 'css/p_aos.css' %}" />
+
+<link rel="stylesheet" href="{% static 'css/p_style.css' %}" />
+<link rel="stylesheet" href="{% static 'css/custom.css' %}" />
+<link rel="stylesheet" href="{% static 'css/p_login.css' %}" />
+
+{% endblock extrahead %} {% block content %} {% comment %} {% if form.errors %}
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  there was an error with your form......
+  <button
+    type="button"
+    class="btn-close"
+    data-bs-dismiss="alert"
+    aria-label="Close"
+  ></button>
+</div>
+{% endif %} {% endcomment %}
+
+<div class="container" id="container">
+  <div class="form-container sign-up-container">
+    <form action="{% url 'pharm_register' %}" method="POST">
+      {% csrf_token %}
+      <h2>Create Account</h2>
+      <span>or use your email for registration</span>
+      <input type="text" id="Name" name="Name" placeholder="Name " required />
+      <input
+        type="email"
+        id="Email"
+        name="Email"
+        placeholder="Email"
+        required
+      />
+      <input type="password" id="password" placeholder="password" required />
+      <input
+        type="text"
+        id="Qualification"
+        name="Qualification"
+        placeholder="Qualification	"
+        required
+      />
+      <input
+        type="Number"
+        id="Contact Number	"
+        placeholder="Contact Number	"
+        required
+      />
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+
+  <div class="form-container sign-in-container">
+    <form action="{% url 'pharm_login' %}" method="POST">
+      {% csrf_token %}
+      <h1>Sign in</h1>
+      <span>or use your account</span>
+      <input
+        type="email"
+        id="Email"
+        name="Email"
+        placeholder="Email"
+        required
+      />
+      <input
+        type="password"
+        id="Password"
+        name="Password"
+        placeholder="Password"
+        required
+      />
+      <button type="submit">Sign In</button>
+    </form>
+  </div>
+
+  <div class="overlay-container">
+    <div class="overlay">
+      <div class="overlay-panel overlay-left">
+        <h1>Welcome Back!</h1>
+        <p>To keep connected with us please login with your personal info</p>
+        <button class="ghost" id="signIn" onClick="openSignIn()">
+          Sign In
+        </button>
+      </div>
+      <div class="overlay-panel overlay-right">
+        <h1>Hello, Friend!</h1>
+        <p>Enter your personal details and start journey with us</p>
+        <button class="ghost" id="signUp" onClick="openSignUp()">
+          Sign Up
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock content %} {% block extrafooter %}
+<script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+
+<script src="{% static 'js/jquery-ui.js' %}"></script>
+<script src="{% static 'js/popper.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/owl.carousel.min.js' %}"></script>
+<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+<script src="{% static 'js/aos.js' %}"></script>
+<script src="{% static 'js/p_login.js' %}"></script>
+<script src="{% static 'js/main.js' %}"></script>
+{% endblock extrafooter %}
