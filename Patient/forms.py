@@ -69,10 +69,14 @@ class MyRegFrom(UserCreationForm):
             'placeholder':'enter the symptoms',
 
         }))
-
+    Allergy = forms.CharField(label='Enter your Allergy',widget=forms.TextInput(
+        attrs = {
+            'class':'form-control main',
+            'placeholder':'enter your allergy',
+        }))
     class Meta:
         model = CustomUser
-        fields = ['username', 'first_name', 'last_name', 'email', 'mobile', 'age', 'gender','Disease','Symptoms']
+        fields = ['username', 'first_name', 'last_name', 'email', 'mobile', 'age', 'gender','Disease','Symptoms','Allergy']
 
 
 class MyLogInFrm(AuthenticationForm):

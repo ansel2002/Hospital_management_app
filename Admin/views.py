@@ -210,6 +210,9 @@ def leave_type(request):
 def leaves(request):
     return render(request,'Admin/leaves.html')
 
+def login(request):
+    return render(request,'Admin/login.html')
+
 def localisation(request):
     return render(request,'Admin/localisation.html')
 

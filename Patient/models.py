@@ -16,6 +16,11 @@ class CustomUser(models.Model):
     gender = models.CharField(max_length=12)
 
 
+# class newpatient(models.Model):
+#     username=models.models.CharField(max_length=50)
+#     email=models.EmailField(max_length=254)
+#     password=models.IntegerField()
+
 class Doctor(models.Model):
     d_id = models.AutoField(primary_key=True)
     d_name = models.CharField(max_length=255, verbose_name='Doctor Name')
@@ -23,7 +28,7 @@ class Doctor(models.Model):
     d_qualification = models.CharField(max_length=255)
     d_specialist = models.CharField(max_length=255)
     d_yoe = models.CharField(max_length=2, verbose_name='Year Of Experience')
-
+    remaining = models.IntegerField(default=0,null=True)  
 
 class Schedule(models.Model):
     sid = models.AutoField(primary_key=True)

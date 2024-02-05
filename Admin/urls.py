@@ -74,6 +74,8 @@ urlpatterns = [
     path('invoices', views.invoices,name='invoices'),
     path('leave-type', views.leave_type,name='leave-type'),
     path('leaves', views.leaves,name='leaves'),
+    path('login', views.login,name='login'),
+
     path('localisation', views.localisation,name='localisation'),
     path('lock-screen', views.lock_screen,name='lock-screen'),
     path('mail-view', views.mail_view,name='mail-view'),

@@ -66,7 +66,7 @@
                         </li>
                   </ul>
                   <div class="link-btn">
-                        <a href="{% url 'doc-login' %}" class="btn-style-one">Register / Sign In</a>
+                        <a href="{% url 'login-page' %}" class="btn-style-one">Register / Sign In</a>
                   </div>
                   <div class="link-btn">
                         <a href="{% url 'appointment-page' %}" class="btn-style-one">Appointment</a>
@@ -124,7 +124,7 @@
                                     <a href="{% url 'gallery-page' %}" >Gallery</a>
                               </li>
                               <li class="{% if url_name == 'doctor' %} active {% endif %}">
-                                    <a href="{% url 'home-doctor' %}" >Team</a>
+                                    <a href="{% url 'doctor' %}" >Team</a>
                               </li>
                               <li class="{% if url_name == 'appointment-page' %} active {% endif %}">
                                     <a href="{% url 'appointment-page' %}" >Appointment</a>

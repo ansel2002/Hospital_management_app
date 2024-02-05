@@ -45,6 +45,6 @@ class Doctor(models.Model):
     def __str__(self):
         return "{} ({})".format(self.user.first_name,self.department)
 
-    remaining=models.PositiveIntegerField(null=False)
+    remaining=models.PositiveIntegerField(null=True)
 
 

@@ -79,13 +79,13 @@ def UserLogin(request):
         if form.is_valid():
             uname = form.cleaned_data['username']
             upass = form.cleaned_data['password']
-            user = authenticate(username=uname, password=upass)
+            user = authenticate(request,username=uname, password=upass)
             if user is not None:
                 login(request, user)
-                return HttpResponseRedirect('/profile')
+            return HttpResponseRedirect('profile-page')
     else:
         form = MyLogInFrm()
-    return render(request, 'login.html', {'form': form})
+    return render(request, 'Patient/login.html', {'form': form})
 
 
 def userLogout(request):
@@ -149,7 +149,7 @@ def makeAppoint(request, d_id):
                 d_id))
         return render(request, 'appoint.html', {'alldoc': alldoc, 'form': form})
     else:
-        return HttpResponseRedirect('/login')
+        return HttpResponseRedirect('login')
 
 
 def appointmentHistory(request):
@@ -159,4 +159,4 @@ def appointmentHistory(request):
                 request.user.id))
         return render(request, 'Patient/appointmenthistory.html', {'myapp': myApp})
     else:
-        return HttpResponseRedirect('/login')
+        return HttpResponseRedirect('login')
