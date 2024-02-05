@@ -1,5 +1,6 @@
 from django.shortcuts import render,redirect
-from Pharmacy.models import Store, medicineRequest
+from Pharmacy.models import Store, medicineRequest, Cart,CartItems
+from Admin.models import Patient
 
 
 # Create your views here.
@@ -39,11 +40,13 @@ def logintoapp(request):
     
     return render(request)
 
-def store(request):
-    return render(request, "Pharmacy/store.html", context={})
+def store(request,):
+    product_details=Store.objects.all()
+    return render(request, "Pharmacy/store.html", context={'product_details':product_details})
 
-def shop(request):
-    return render(request, "Pharmacy/shop-single.html", context={})
+def shop(request,id):
+    product = Store.objects.get(product_id=id)
+    return render(request, "Pharmacy/shop-single.html", context={'product':product})
 
 def checkout(request):
     return render(request, "Pharmacy/checkout.html", context={})
@@ -101,6 +104,11 @@ def viewRequest(request):
     return render(request,'pharmacy\\viewRequest.html', {'request_details':request_details})
 
     
+def addtoCart(request,id):
+    product=Store.objects.get(product_id=id)
+    cartItem=CartItems.objects.get(product=product)
+    addtoCart=CartItems.objects.create()
+    return redirect('cart')
 
     
 

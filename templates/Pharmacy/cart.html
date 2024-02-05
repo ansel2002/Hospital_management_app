@@ -28,10 +28,7 @@
 
         <div class="search-wrap">
             <div class="container">
-                <a href="#" class="search-close js-search-close"><span class="icon-close2"></span></a>
-                <form action="#" method="post">
-                    <input type="text" class="form-control" placeholder="Search keyword and hit enter...">
-                </form>
+               
             </div>
         </div>
 
@@ -42,26 +39,8 @@
                         <a href="homePage" class="js-logo-clone">Pharma</a>
                     </div>
                 </div>
-                <div class="main-nav d-none d-lg-block">
-                    <nav class="site-navigation text-right text-md-center" role="navigation">
-                        <ul class="site-menu js-clone-nav d-none d-lg-block">
-                            <li><a href="homePage">Home</a></li>
-                            <li class="active"><a href="store">Store</a></li>
-                            
-                            <li><a href="aboutUs">About</a></li>
-                            <li><a href="contactUs">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="icons">
-                    <a href="#" class="icons-btn d-inline-block js-search-open"><span class="icon-search"></span></a>
-                    <a href="cart" class="icons-btn d-inline-block bag">
-                        <span class="icon-shopping-bag"></span>
-                        <span class="number">2</span>
-                    </a>
-                    <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span
-                            class="icon-menu"></span></a>
-                </div>
+                
+                {% include 'partials/userNavbar.html' %}
             </div>
         </div>
     </div>
@@ -94,15 +73,16 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                {% for item in user.cart.items.all %}
                                 <tr>
                                     <td class="product-thumbnail">
-                                        <img src="{% static '/images/pharma/product_02.png' %}" alt="Image"
-                                            class="img-fluid">
+                                        <img src="{{item.product.image.url}}" alt="Image"
+                                            class="img-fluid" name="cart_image">
                                     </td>
-                                    <td class="product-name">
-                                        <h2 class="h5 text-black">Ibuprofen</h2>
+                                    <td>
+                                        <h2 class="h5 text-black">{{item.product.product_name}}</h2>
                                     </td>
-                                    <td>$55.00</td>
+                                    <td>{{item.product.price}}</td>
                                     <td>
                                         <div class="input-group mb-3" style="max-width: 120px;">
                                             <div class="input-group-prepend">
@@ -121,9 +101,11 @@
                                     </td>
                                     <td>$49.00</td>
                                     <td><a href="#" class="btn btn-primary height-auto btn-sm">X</a></td>
+                                    
                                 </tr>
+                                {% endfor %}
 
-                                <tr>
+                                <!-- <tr>
                                     <td class="product-thumbnail">
                                         <img src="{% static '/images/pharma/product_01.png' %}" alt="Image"
                                             class="img-fluid">
@@ -150,7 +132,7 @@
                                     </td>
                                     <td>$49.00</td>
                                     <td><a href="#" class="btn btn-primary height-auto btn-sm">X</a></td>
-                                </tr>
+                                </tr> -->
                             </tbody>
                         </table>
                     </div>
