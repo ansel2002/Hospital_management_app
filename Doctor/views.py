@@ -57,7 +57,7 @@ def userLogin(request):
             return redirect("home-doctor")
 
     else:
-        return render(request, "Doctor/login.html", context={})
+        return render(request, "", context={})
 
 
 def userLogout(request):

@@ -73,16 +73,16 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                {% for item in user.cart.items.all %}
+                                {% for item in product_details %}
                                 <tr>
                                     <td class="product-thumbnail">
-                                        <img src="{{item.product.image.url}}" alt="Image"
+                                        <img src="{{item.product.image.url }}" alt="Image"
                                             class="img-fluid" name="cart_image">
                                     </td>
                                     <td>
-                                        <h2 class="h5 text-black">{{item.product.product_name}}</h2>
+                                        <h2 class="h5 text-black">{{item.product_name}}</h2>
                                     </td>
-                                    <td>{{item.product.price}}</td>
+                                    <td>{{item.price}}</td>
                                     <td>
                                         <div class="input-group mb-3" style="max-width: 120px;">
                                             <div class="input-group-prepend">

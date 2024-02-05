@@ -5,7 +5,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
 from django.shortcuts import render,redirect
 from Pharmacy.models import Store, medicineRequest, Cart,CartItems
-from Admin.models import Patient
+
 
 
 # Create your views here.
@@ -16,7 +16,8 @@ def about(request):
 
 
 def cart(request):
-    return render(request, "Pharmacy/cart.html", context={})
+    product_details=Store.objects.all()
+    return render(request, "Pharmacy/cart.html", context={'product_details':product_details})
 
 
 def homePage(request):

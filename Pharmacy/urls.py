@@ -23,7 +23,6 @@ urlpatterns = [
     path('editProduct/<str:id>/',views.editProduct,name="editProduct"),
     path('pharm_login',views.pharm_login,name="pharm_login"),
     path('register',views.pharm_register,name="pharm_register")
-    path('addtoCart/<str:id>/',views.addtoCart,name="addtoCart"),
 
     # path('addItem',views.addItem,name='addItem'),
     # path('removeItem',views.removeQnty,name='remove'),
