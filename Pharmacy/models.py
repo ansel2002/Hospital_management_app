@@ -57,3 +57,8 @@ class medicineRequest(models.Model):
 
     def __str__(self):
         return str(self.medicine_name.__str__())
+    
+class Pharm_login(models.Model):
+    Name = models.CharField(max_length=50, blank=True)
+    Email = models.CharField(max_length=50, blank=True)
+    password = models.CharField(max_length=50, blank=True)    

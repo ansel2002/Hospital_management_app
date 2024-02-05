@@ -21,6 +21,8 @@ urlpatterns = [
     path('viewRequest',views.viewRequest,name="viewRequest"),
     path('deleteProduct/<str:id>/',views.deleteProduct,name="deleteProduct"),
     path('editProduct/<str:id>/',views.editProduct,name="editProduct"),
+    path('pharm_login',views.pharm_login,name="pharm_login"),
+    path('register',views.pharm_register,name="pharm_register")
 
     # path('addItem',views.addItem,name='addItem'),
     # path('removeItem',views.removeQnty,name='remove'),

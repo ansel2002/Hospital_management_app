@@ -1,37 +1,48 @@
-{% extends "base.html" %}
-{% load static %}
+{% extends "base.html" %} {% load static %} {% block extrahead %}
 
-{% block extrahead %}
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  rel="stylesheet"
+/>
 
-<link href="https://fonts.googleapis.com/css?family=Rubik:400,700|Crimson+Text:400,400i" rel="stylesheet">
-<link rel="stylesheet" href="{% static 'owlcarousel/owl.carousel.min.css' %}">
-<link rel="stylesheet" href="{% static 'owlcarousel/owl.theme.default.min.css' %}">
-<link rel="stylesheet" href="{% static 'fonts/icomoon/style.css' %}">
-<link rel="stylesheet" type="text/css"
-  href="{% static 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' %}" />
-<link rel="stylesheet" href="{% static 'css/p_bootstrap.min.css' %}">
-<link rel="stylesheet" href="{% static 'css/p_magnific-popup.css' %}">
-<link rel="stylesheet" href="{% static 'css/p_jquery-ui.css' %}">
-<link rel="stylesheet" href="{% static 'css/p_owl.carousel.min.css' %}">
-<link rel="stylesheet" href="{% static 'css/p_owl.theme.default.min.css' %}">
-<link rel="stylesheet" href="{% static 'css/p_aos.css' %}">
-<link rel="stylesheet" href="{% static 'css/p_style.css' %}">
-<link rel="stylesheet" href="{% static 'css/custom.css' %}">
-{% endblock extrahead %}
-
-{% block content %}
-
+<link
+  href="https://fonts.googleapis.com/css?family=Rubik:400,700|Crimson+Text:400,400i"
+  rel="stylesheet"
+/>
+<link rel="stylesheet" href="{% static 'owlcarousel/owl.carousel.min.css' %}" />
+<link
+  rel="stylesheet"
+  href="{% static 'owlcarousel/owl.theme.default.min.css' %}"
+/>
+<link rel="stylesheet" href="{% static 'fonts/icomoon/style.css' %}" />
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="{% static 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' %}"
+/>
+<link rel="stylesheet" href="{% static 'css/p_bootstrap.min.css' %}" />
+<link rel="stylesheet" href="{% static 'css/p_magnific-popup.css' %}" />
+<link rel="stylesheet" href="{% static 'css/p_jquery-ui.css' %}" />
+<link rel="stylesheet" href="{% static 'css/p_owl.carousel.min.css' %}" />
+<link rel="stylesheet" href="{% static 'css/p_owl.theme.default.min.css' %}" />
+<link rel="stylesheet" href="{% static 'css/p_aos.css' %}" />
+<link rel="stylesheet" href="{% static 'css/p_style.css' %}" />
+<link rel="stylesheet" href="{% static 'css/custom.css' %}" />
+{% endblock extrahead %} {% block content %}
 
 <div class="site-wrap">
-
-
   <div class="site-navbar py-2">
-
     <div class="search-wrap">
       <div class="container">
-        <a href="#" class="search-close js-search-close"><span class="icon-close2"></span></a>
+        <a href="#" class="search-close js-search-close"
+          ><span class="icon-close2"></span
+        ></a>
         <form action="#" method="post">
-          <input type="text" class="form-control" placeholder="Search keyword and hit enter...">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Search keyword and hit enter..."
+          />
         </form>
       </div>
     </div>
@@ -44,11 +55,14 @@
           </div>
         </div>
         <div class="main-nav d-none d-lg-block">
-          <nav class="site-navigation text-right text-md-center" role="navigation">
+          <nav
+            class="site-navigation text-right text-md-center"
+            role="navigation"
+          >
             <ul class="site-menu js-clone-nav d-none d-lg-block">
               <li class="active"><a href="homePage">Home</a></li>
               <li><a href="store">Store</a></li>
-              
+
               <li><a href="aboutUs">About</a></li>
               <li><a href="contactUs">Contact</a></li>
               <li><a href="addProduct">Add Product</a></li>
@@ -56,19 +70,32 @@
           </nav>
         </div>
         <div class="icons">
-          <a href="#" class="icons-btn d-inline-block js-search-open"><span class="icon-search"></span></a>
+          <span>
+          <a href="{% url 'pharm_login' %}" class="fa-solid fa-user"> 
+          </a> <span>
+
+          <a href="#" class="icons-btn d-inline-block js-search-open"
+            ><span class="icon-search"></span
+          ></a>
+
           <a href="cart" class="icons-btn d-inline-block bag">
             <span class="icon-shopping-bag"></span>
             <span class="number">2</span>
           </a>
-          <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span
-              class="icon-menu"></span></a>
+          <a
+            href="#"
+            class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"
+            ><span class="icon-menu"></span
+          ></a>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="site-blocks-cover" style="background-image: url('{% static '/images/pharma/hero_1.jpg' %}');">
+  <div
+    class="site-blocks-cover"
+    style="background-image: url('{% static '/images/pharma/hero_1.jpg' %}')"
+  >
     <div class="container">
       <div class="row">
         <div class="col-lg-7 mx-auto order-lg-2 align-self-center">
@@ -90,10 +117,15 @@
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="banner-wrap bg-primary h-100">
             <a href="#" class="h-100">
-              <h5>Free <br> Shipping</h5>
+              <h5>
+                Free <br />
+                Shipping
+              </h5>
               <p>
                 Amet sit amet dolor
-                <strong>Lorem, ipsum dolor sit amet consectetur adipisicing.</strong>
+                <strong
+                  >Lorem, ipsum dolor sit amet consectetur adipisicing.</strong
+                >
               </p>
             </a>
           </div>
@@ -101,10 +133,15 @@
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="banner-wrap h-100">
             <a href="#" class="h-100">
-              <h5>Season <br> Sale 50% Off</h5>
+              <h5>
+                Season <br />
+                Sale 50% Off
+              </h5>
               <p>
                 Amet sit amet dolor
-                <strong>Lorem, ipsum dolor sit amet consectetur adipisicing.</strong>
+                <strong
+                  >Lorem, ipsum dolor sit amet consectetur adipisicing.</strong
+                >
               </p>
             </a>
           </div>
@@ -112,15 +149,19 @@
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="banner-wrap bg-warning h-100">
             <a href="#" class="h-100">
-              <h5>Buy <br> A Gift Card</h5>
+              <h5>
+                Buy <br />
+                A Gift Card
+              </h5>
               <p>
                 Amet sit amet dolor
-                <strong>Lorem, ipsum dolor sit amet consectetur adipisicing.</strong>
+                <strong
+                  >Lorem, ipsum dolor sit amet consectetur adipisicing.</strong
+                >
               </p>
             </a>
           </div>
         </div>
-
       </div>
     </div>
   </div>
@@ -136,47 +177,59 @@
       <div class="row">
         <div class="col-sm-6 col-lg-4 text-center item mb-4">
           <span class="tag">Sale</span>
-          <a href="shop-single"> <img src="{% static '/images/pharma/product_01.png' %}" alt="Image"></a>
+          <a href="shop-single">
+            <img src="{% static '/images/pharma/product_01.png' %}" alt="Image"
+          /></a>
           <h3 class="text-dark"><a href="shop-single">Bioderma</a></h3>
           <p class="price"><del>95.00</del> &mdash; $55.00</p>
         </div>
         <div class="col-sm-6 col-lg-4 text-center item mb-4">
-          <a href="shop-single"> <img src="{% static '/images/pharma/product_02.png' %}" alt="Image"></a>
+          <a href="shop-single">
+            <img src="{% static '/images/pharma/product_02.png' %}" alt="Image"
+          /></a>
           <h3 class="text-dark"><a href="shop-single">Chanca Piedra</a></h3>
           <p class="price">$70.00</p>
         </div>
         <div class="col-sm-6 col-lg-4 text-center item mb-4">
-          <a href="shop-single"> <img src="{% static '/images/pharma/product_03.png' %}" alt="Image"></a>
+          <a href="shop-single">
+            <img src="{% static '/images/pharma/product_03.png' %}" alt="Image"
+          /></a>
           <h3 class="text-dark"><a href="shop-single">Umcka Cold Care</a></h3>
           <p class="price">$120.00</p>
         </div>
 
         <div class="col-sm-6 col-lg-4 text-center item mb-4">
-
-          <a href="shop-single"> <img src="{% static '/images/pharma/product_04.png' %}" alt="Image"></a>
+          <a href="shop-single">
+            <img src="{% static '/images/pharma/product_04.png' %}" alt="Image"
+          /></a>
           <h3 class="text-dark"><a href="shop-single">Cetyl Pure</a></h3>
           <p class="price"><del>45.00</del> &mdash; $20.00</p>
         </div>
         <div class="col-sm-6 col-lg-4 text-center item mb-4">
-          <a href="shop-single"> <img src="{% static '/images/pharma/product_05.png' %}" alt="Image"></a>
+          <a href="shop-single">
+            <img src="{% static '/images/pharma/product_05.png' %}" alt="Image"
+          /></a>
           <h3 class="text-dark"><a href="shop-single">CLA Core</a></h3>
           <p class="price">$38.00</p>
         </div>
         <div class="col-sm-6 col-lg-4 text-center item mb-4">
           <span class="tag">Sale</span>
-          <a href="shop-single"> <img src="{% static '/images/pharma/product_06.png' %}" alt="Image"></a>
+          <a href="shop-single">
+            <img src="{% static '/images/pharma/product_06.png' %}" alt="Image"
+          /></a>
           <h3 class="text-dark"><a href="shop-single">Poo Pourri</a></h3>
           <p class="price"><del>$89</del> &mdash; $38.00</p>
         </div>
       </div>
       <div class="row mt-5">
         <div class="col-12 text-center">
-          <a href="store" class="btn btn-primary px-4 py-3">View All Products</a>
+          <a href="store" class="btn btn-primary px-4 py-3"
+            >View All Products</a
+          >
         </div>
       </div>
     </div>
   </div>
-
 
   <div class="site-section bg-light">
     <div class="container">
@@ -188,31 +241,53 @@
       <div class="row">
         <div class="col-md-12 block-3 products-wrap">
           <div class="nonloop-block-3 owl-carousel">
-
             <div class="text-center item mb-4">
-              <a href="shop-single"> <img src="{% static '/images/pharma/person_1.png' %}" alt="Image"></a>
-              <h3 class="text-dark"><a href="shop-single">Umcka Cold Care</a></h3>
+              <a href="shop-single">
+                <img
+                  src="{% static '/images/pharma/person_1.png' %}"
+                  alt="Image"
+              /></a>
+              <h3 class="text-dark">
+                <a href="shop-single">Umcka Cold Care</a>
+              </h3>
               <p class="price">$120.00</p>
             </div>
 
             <div class="text-center item mb-4">
-              <a href="shop-single"> <img src="{% static '/images/pharma/product_01.png' %}" alt="Image"></a>
-              <h3 class="text-dark"><a href="shop-single">Umcka Cold Care</a></h3>
+              <a href="shop-single">
+                <img
+                  src="{% static '/images/pharma/product_01.png' %}"
+                  alt="Image"
+              /></a>
+              <h3 class="text-dark">
+                <a href="shop-single">Umcka Cold Care</a>
+              </h3>
               <p class="price">$120.00</p>
             </div>
 
             <div class="text-center item mb-4">
-              <a href="shop-single"> <img src="{% static '/images/pharma/product_02.png' %}" alt="Image"></a>
-              <h3 class="text-dark"><a href="shop-single">Umcka Cold Care</a></h3>
+              <a href="shop-single">
+                <img
+                  src="{% static '/images/pharma/product_02.png' %}"
+                  alt="Image"
+              /></a>
+              <h3 class="text-dark">
+                <a href="shop-single">Umcka Cold Care</a>
+              </h3>
               <p class="price">$120.00</p>
             </div>
 
             <div class="text-center item mb-4">
-              <a href="shop-single"> <img src="{% static '/images/pharma/product_04.png' %}" alt="Image"></a>
-              <h3 class="text-dark"><a href="shop-single">Umcka Cold Care</a></h3>
+              <a href="shop-single">
+                <img
+                  src="{% static '/images/pharma/product_04.png' %}"
+                  alt="Image"
+              /></a>
+              <h3 class="text-dark">
+                <a href="shop-single">Umcka Cold Care</a>
+              </h3>
               <p class="price">$120.00</p>
             </div>
-
           </div>
         </div>
       </div>
@@ -229,14 +304,19 @@
       <div class="row">
         <div class="col-md-12 block-3 products-wrap">
           <div class="nonloop-block-3 no-direction owl-carousel">
-
             <div class="testimony">
               <blockquote>
-                <img src="{% static '/images/pharma/person_1.jpg' %}" alt="Image"
-                  class="img-fluid w-25 mb-4 rounded-circle">
-                <p>&ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur
-                  quam tempore obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod tenetur ducimus.
-                  Minus ratione sit quaerat unde.&rdquo;</p>
+                <img
+                  src="{% static '/images/pharma/person_1.jpg' %}"
+                  alt="Image"
+                  class="img-fluid w-25 mb-4 rounded-circle"
+                />
+                <p>
+                  &ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing
+                  elit. Nemo omnis voluptatem consectetur quam tempore obcaecati
+                  maiores voluptate aspernatur iusto eveniet, placeat ab quod
+                  tenetur ducimus. Minus ratione sit quaerat unde.&rdquo;
+                </p>
               </blockquote>
 
               <p>&mdash; Kelly Holmes</p>
@@ -244,13 +324,17 @@
 
             <div class="testimony">
               <blockquote>
-                <img src="{% static '/images/pharma/person_2.jpg' %}" alt="Image"
-                  class="img-fluid w-25 mb-4 rounded-circle">
-                <p>&ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur
-                  quam tempore
-                  obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod tenetur ducimus. Minus ratione
-                  sit quaerat
-                  unde.&rdquo;</p>
+                <img
+                  src="{% static '/images/pharma/person_2.jpg' %}"
+                  alt="Image"
+                  class="img-fluid w-25 mb-4 rounded-circle"
+                />
+                <p>
+                  &ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing
+                  elit. Nemo omnis voluptatem consectetur quam tempore obcaecati
+                  maiores voluptate aspernatur iusto eveniet, placeat ab quod
+                  tenetur ducimus. Minus ratione sit quaerat unde.&rdquo;
+                </p>
               </blockquote>
 
               <p>&mdash; Rebecca Morando</p>
@@ -258,13 +342,17 @@
 
             <div class="testimony">
               <blockquote>
-                <img src="{% static '/images/pharma/person_3.jpg' %}" alt="Image"
-                  class="img-fluid w-25 mb-4 rounded-circle">
-                <p>&ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur
-                  quam tempore
-                  obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod tenetur ducimus. Minus ratione
-                  sit quaerat
-                  unde.&rdquo;</p>
+                <img
+                  src="{% static '/images/pharma/person_3.jpg' %}"
+                  alt="Image"
+                  class="img-fluid w-25 mb-4 rounded-circle"
+                />
+                <p>
+                  &ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing
+                  elit. Nemo omnis voluptatem consectetur quam tempore obcaecati
+                  maiores voluptate aspernatur iusto eveniet, placeat ab quod
+                  tenetur ducimus. Minus ratione sit quaerat unde.&rdquo;
+                </p>
               </blockquote>
 
               <p>&mdash; Lucas Gallone</p>
@@ -272,45 +360,63 @@
 
             <div class="testimony">
               <blockquote>
-                <img src="{% static '/images/pharma/person_4.jpg' %}" alt="Image"
-                  class="img-fluid w-25 mb-4 rounded-circle">
-                <p>&ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur
-                  quam tempore
-                  obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod tenetur ducimus. Minus ratione
-                  sit quaerat
-                  unde.&rdquo;</p>
+                <img
+                  src="{% static '/images/pharma/person_4.jpg' %}"
+                  alt="Image"
+                  class="img-fluid w-25 mb-4 rounded-circle"
+                />
+                <p>
+                  &ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing
+                  elit. Nemo omnis voluptatem consectetur quam tempore obcaecati
+                  maiores voluptate aspernatur iusto eveniet, placeat ab quod
+                  tenetur ducimus. Minus ratione sit quaerat unde.&rdquo;
+                </p>
               </blockquote>
 
               <p>&mdash; Andrew Neel</p>
             </div>
-
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="site-section bg-secondary bg-image"
-    style="background-image: url('{% static '/images/pharma/bg_2.jpg' %}')">
-
+  <div
+    class="site-section bg-secondary bg-image"
+    style="background-image: url('{% static '/images/pharma/bg_2.jpg' %}')"
+  >
     <div class="container">
       <div class="row align-items-stretch">
         <div class="col-lg-6 mb-5 mb-lg-0">
-          <a href="#" class="banner-1 h-100 d-flex"
-            style="background-image: url('{% static '/images/pharma/bg_1.jpg' %}');">
+          <a
+            href="#"
+            class="banner-1 h-100 d-flex"
+            style="
+              background-image: url('{% static '/images/pharma/bg_1.jpg' %}');
+            "
+          >
             <div class="banner-1-inner align-self-center">
               <h2>Pharma Products</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ex ad minus rem odio voluptatem.
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Molestiae ex ad minus rem odio voluptatem.
               </p>
             </div>
           </a>
         </div>
         <div class="col-lg-6 mb-5 mb-lg-0">
-          <a href="#" class="banner-1 h-100 d-flex"
-            style="background-image:  url('{% static '/images/pharma/bg_2.jpg' %}');">
-            <div class="banner-1-inner ml-auto  align-self-center">
+          <a
+            href="#"
+            class="banner-1 h-100 d-flex"
+            style="
+              background-image: url('{% static '/images/pharma/bg_2.jpg' %}');
+            "
+          >
+            <div class="banner-1-inner ml-auto align-self-center">
               <h2>Rated by Experts</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ex ad minus rem odio voluptatem.
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Molestiae ex ad minus rem odio voluptatem.
               </p>
             </div>
           </a>
@@ -319,15 +425,15 @@
     </div>
   </div>
 
-{% endblock content %}
-
-{% block extrafooter %}
-<script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
-<script src="{% static 'js/jquery-ui.js' %}"></script>
-<script src="{% static 'js/popper.min.js' %}"></script>
-<script src="{% static 'js/bootstrap.min.js' %}"></script>
-<script src="{% static 'js/owl.carousel.min.js' %}"></script>
-<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
-<script src="{% static 'js/aos.js' %}"></script>
-<script src="{% static 'js/main.js' %}"></script>
-{% endblock extrafooter %}
+  {% endblock content %} {% block extrafooter %}
+  <script src="{% static 'fontawesomefree/js/all.min.js' %}"></script>
+  <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+  <script src="{% static 'js/jquery-ui.js' %}"></script>
+  <script src="{% static 'js/popper.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+  <script src="{% static 'js/aos.js' %}"></script>
+  <script src="{% static 'js/main.js' %}"></script>
+  {% endblock extrafooter %}
+</div>
