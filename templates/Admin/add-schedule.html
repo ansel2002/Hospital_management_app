@@ -39,7 +39,7 @@
                         <div class="drop-scroll">
                             <ul class="notification-list">
                                 <li class="notification-message">
-                                    <a href="activities.html">
+                                    <a href="{% url 'Activities' %}">
                                         <div class="media">
 											<span class="avatar">
 												<img alt="John Doe" src="{% static 'img/user.jpg' %}" class="img-fluid rounded-circle">
@@ -52,7 +52,7 @@
                                     </a>
                                 </li>
                                 <li class="notification-message">
-                                    <a href="activities.html">
+                                    <a href="{% url 'Activities' %}">
                                         <div class="media">
 											<span class="avatar">V</span>
 											<div class="media-body">
@@ -63,7 +63,7 @@
                                     </a>
                                 </li>
                                 <li class="notification-message">
-                                    <a href="activities.html">
+                                    <a href="{% url 'Activities' %}">
                                         <div class="media">
 											<span class="avatar">L</span>
 											<div class="media-body">
@@ -74,7 +74,7 @@
                                     </a>
                                 </li>
                                 <li class="notification-message">
-                                    <a href="activities.html">
+                                    <a href="{% url 'Activities' %}">
                                         <div class="media">
 											<span class="avatar">G</span>
 											<div class="media-body">
@@ -85,7 +85,7 @@
                                     </a>
                                 </li>
                                 <li class="notification-message">
-                                    <a href="activities.html">
+                                    <a href="{% url 'Activities' %}">
                                         <div class="media">
 											<span class="avatar">V</span>
 											<div class="media-body">
@@ -98,7 +98,7 @@
                             </ul>
                         </div>
                         <div class="topnav-dropdown-footer">
-                            <a href="activities.html">View all Notifications</a>
+                            <a href="{% url 'Activities' %}">View all Notifications</a>
                         </div>
                     </div>
                 </li>
@@ -210,7 +210,7 @@
 							<a href="assets.html"><i class="fa fa-cube"></i> <span>Assets</span></a>
 						</li>
 						<li>
-							<a href="activities.html"><i class="fa fa-bell-o"></i> <span>Activities</span></a>
+							<a href="{% url 'Activities' %}"><i class="fa fa-bell-o"></i> <span>Activities</span></a>
 						</li>
 						<li class="submenu">
 							<a href="#"><i class="fa fa-flag-o"></i> <span> Reports </span> <span class="menu-arrow"></span></a>

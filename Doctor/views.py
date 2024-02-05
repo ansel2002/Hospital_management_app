@@ -45,7 +45,7 @@ def userLogin(request):
             print(user)
             if user.is_superuser:
 
-             return redirect("aboutus")
+             return redirect("Dashboard")
             elif user.is_staff:
                 return redirect("doctor")
 

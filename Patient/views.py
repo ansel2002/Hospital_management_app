@@ -15,30 +15,30 @@ import datetime
 
 
 def index(request):
-    return render(request, 'Patient\index.html')
+    return render(request, 'Patient/index.html')
 
 def about(request):
-    return render(request, 'about.html')
+    return render(request, 'Patient/about.html')
 
 
 def service(request):
-    return render(request, 'service.html')
+    return render(request, 'Patient/service.html')
 
 
 def gallery(request):
-    return render(request, 'gallery.html')
+    return render(request, 'Patient/gallery.html')
 
 
 def team(request):
-    return render(request, 'team.html')
+    return render(request, 'Patient/team.html')
 
 
 def appointment(request):
-    return render(request, 'appointment.html')
+    return render(request, 'Patient/appointment.html')
 
 
 def blog(request):
-    return render(request, 'blog.html')
+    return render(request, 'Patient/blog.html')
 
 
 def contact(request):
@@ -55,7 +55,7 @@ def contact(request):
         contact.save()
         return render(request, 'thanks.html')
     else:
-        return render(request, 'contact.html')
+        return render(request, 'Patient/contact.html')
 
 
 def registration(request):
@@ -157,6 +157,6 @@ def appointmentHistory(request):
         myApp = Appointment.objects.raw(
             "SELECT a.*, d.d_name, s.days, s.time_slot FROM myapplications_appointment a INNER JOIN myapplications_doctor d ON  a.doctor_id=d.d_id INNER JOIN myapplications_schedule s ON a.doctor_id=s.doctor_id WHERE a.user_id={}".format(
                 request.user.id))
-        return render(request, 'appointmenthistory.html', {'myapp': myApp})
+        return render(request, 'Patient/appointmenthistory.html', {'myapp': myApp})
     else:
         return HttpResponseRedirect('/login')

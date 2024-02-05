@@ -1,5 +1,9 @@
 {% load static %}
 <!--header top-->
+
+<link rel="stylesheet" href="{% static 'css/App-Style.css' %}" />
+<link rel="stylesheet" href="{% static 'maps/css/style.css.map' %}" />
+
 <div class="header-top">
       <div class="container clearfix">
             <div class="top-left">
@@ -62,7 +66,7 @@
                         </li>
                   </ul>
                   <div class="link-btn">
-                        <a href="{% url 'registration-page' %}" class="btn-style-one">Register / Sign In</a>
+                        <a href="{% url 'doc-login' %}" class="btn-style-one">Register / Sign In</a>
                   </div>
                   <div class="link-btn">
                         <a href="{% url 'appointment-page' %}" class="btn-style-one">Appointment</a>
@@ -116,14 +120,11 @@
                               <li class="{% if url_name == 'about-page' %} active {% endif %}"">
                                     <a href="{% url 'about-page' %}" >About</a>
                               </li>
-                              <li class="{% if url_name == 'service-page' %} active {% endif %}">
-                                    <a href="{% url 'service-page' %}" >Service</a>
-                              </li>
                               <li class="{% if url_name == 'gallery-page' %} active {% endif %}">
                                     <a href="{% url 'gallery-page' %}" >Gallery</a>
                               </li>
-                              <li class="{% if url_name == 'team-page' %} active {% endif %}">
-                                    <a href="{% url 'team-page' %}" >Team</a>
+                              <li class="{% if url_name == 'doctor' %} active {% endif %}">
+                                    <a href="{% url 'home-doctor' %}" >Team</a>
                               </li>
                               <li class="{% if url_name == 'appointment-page' %} active {% endif %}">
                                     <a href="{% url 'appointment-page' %}" >Appointment</a>
@@ -140,6 +141,9 @@
             </div>
             <!-- /.container-fluid -->
       </nav>
+
+<script src="{% static 'js/Script1.js'%}"></script>
+
 <!--End Main Header -->
 {% endwith %}
 
