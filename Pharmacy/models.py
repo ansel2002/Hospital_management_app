@@ -21,6 +21,7 @@ class Cart(models.Model):
     user_name = models.CharField(blank=False,max_length=50)  
     total = models.FloatField(blank=False)
 
+
     def __self__(self):
         return f"Cart for {self.user_name}"
 

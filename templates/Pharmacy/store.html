@@ -21,14 +21,7 @@
 
     <div class="site-navbar py-2">
 
-      <div class="search-wrap">
-        <div class="container">
-          <a href="#" class="search-close js-search-close"><span class="icon-close2"></span></a>
-          <form action="#" method="post">
-            <input type="text" class="form-control" placeholder="Search keyword and hit enter...">
-          </form>
-        </div>
-      </div>
+      
 
       <div class="container">
         <div class="d-flex align-items-center justify-content-between">
@@ -37,26 +30,8 @@
               <a href="homePage" class="js-logo-clone">Pharma</a>
             </div>
           </div>
-          <div class="main-nav d-none d-lg-block">
-            <nav class="site-navigation text-right text-md-center" role="navigation">
-              <ul class="site-menu js-clone-nav d-none d-lg-block">
-                <li><a href="homePage">Home</a></li>
-                <li class="active"><a href="store">Store</a></li>
-           
-                <li><a href="aboutUs">About</a></li>
-                <li><a href="contactUs">Contact</a></li>
-              </ul>
-            </nav>
-          </div>
-          <div class="icons">
-            <a href="#" class="icons-btn d-inline-block js-search-open"><span class="icon-search"></span></a>
-            <a href="cart" class="icons-btn d-inline-block bag">
-              <span class="icon-shopping-bag"></span>
-              <span class="number">2</span>
-            </a>
-            <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span
-                class="icon-menu"></span></a>
-          </div>
+          
+          {% include 'partials/userNavbar.html' %}
         </div>
       </div>
     </div>
@@ -72,33 +47,28 @@
     <div class="site-section">
       <div class="container">
         
-        <div class="row">
-          <div class="col-lg-6">
-            <h3 class="mb-3 h6 text-uppercase text-black d-block">Filter by Price</h3>
-            <div id="slider-range" class="border-primary"></div>
-            <input type="text" name="text" id="amount" class="form-control border-0 pl-0 bg-white" disabled="" />
-          </div>
-          <div class="col-lg-6">
-            <h3 class="mb-3 h6 text-uppercase text-black d-block">Filter by Reference</h3>
-            <button type="button" class="btn btn-secondary btn-md dropdown-toggle px-4" id="dropdownMenuReference"
-              data-toggle="dropdown">Reference</button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
-              <a class="dropdown-item" href="#">Relevance</a>
-              <a class="dropdown-item" href="#">Name, A to Z</a>
-              <a class="dropdown-item" href="#">Name, Z to A</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Price, low to high</a>
-              <a class="dropdown-item" href="#">Price, high to low</a>
-            </div>
-          </div>
-        </div>
     
         <div class="row",id="page1">
-          <div class="col-sm-6 col-lg-4 text-center item mb-4">
+          <!-- <div class="col-sm-6 col-lg-4 text-center item mb-4">
             <span class="tag">Sale</span>
             <a href="shop-single"> <img src="{% static '/images/pharma/product_01.png' %}" alt="Image"></a>
             <h3 class="text-dark"><a href="shop-single">Bioderma</a></h3>
             <p class="price"><del>95.00</del> &mdash; $55.00</p>
+          </div>
+          <div class="col-sm-6 col-lg-4 text-center item mb-4">
+            <a href="shop-single"> <img src="{% static '/images/pharma/product_02.png' %}" alt="Image"></a>
+            <h3 class="text-dark"><a href="shop-single">Chanca Piedra</a></h3>
+            <p class="price">$70.00</p>
+          </div>
+          <div class="col-sm-6 col-lg-4 text-center item mb-4">
+            <a href="shop-single"> <img src="{% static '/images/pharma/product_02.png' %}" alt="Image"></a>
+            <h3 class="text-dark"><a href="shop-single">Chanca Piedra</a></h3>
+            <p class="price">$70.00</p>
+          </div>
+          <div class="col-sm-6 col-lg-4 text-center item mb-4">
+            <a href="shop-single"> <img src="{% static '/images/pharma/product_02.png' %}" alt="Image"></a>
+            <h3 class="text-dark"><a href="shop-single">Chanca Piedra</a></h3>
+            <p class="price">$70.00</p>
           </div>
           <div class="col-sm-6 col-lg-4 text-center item mb-4">
             <a href="shop-single"> <img src="{% static '/images/pharma/product_02.png' %}" alt="Image"></a>
@@ -127,7 +97,17 @@
             <a href="shop-single"> <img src="{% static '/images/pharma/product_06.png' %}" alt="Image"></a>
             <h3 class="text-dark"><a href="shop-single">Poo Pourri</a></h3>
             <p class="price"><del>$89</del> &mdash; $38.00</p>
+          </div> -->
+          {% for product in product_details %}
+          <div class="col-sm-6 col-lg-4 text-center item mb-4">
+            
+            <a href="{% url 'shop' id=product.product_id %}"> <img src="{{product.image.url}}" alt="Image" height="250px"></a>
+            <h3 class="text-dark"><a href="{% url 'shop' id=product.product_id %}">{{product.product_name}}</a></h3>
+            <p class="price">{{product.price}}</p>
+            
           </div>
+          {% endfor %}
+
 
         <div class="row mt-5">
           <div class="col-md-12 text-center">

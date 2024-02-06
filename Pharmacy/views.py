@@ -3,6 +3,10 @@ from Pharmacy.models import Store
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
+from django.shortcuts import render,redirect
+from Pharmacy.models import Store, medicineRequest, Cart,CartItems
+
+
 
 # Create your views here.
 
@@ -12,7 +16,8 @@ def about(request):
 
 
 def cart(request):
-    return render(request, "Pharmacy/cart.html", context={})
+    product_details=Store.objects.all()
+    return render(request, "Pharmacy/cart.html", context={'product_details':product_details})
 
 
 def homePage(request):
@@ -56,13 +61,13 @@ def logintoapp(request):
 
     return render(request)
 
+def store(request,):
+    product_details=Store.objects.all()
+    return render(request, "Pharmacy/store.html", context={'product_details':product_details})
 
-def store(request):
-    return render(request, "Pharmacy/store.html", context={})
-
-
-def shop(request):
-    return render(request, "Pharmacy/shop-single.html", context={})
+def shop(request,id):
+    product = Store.objects.get(product_id=id)
+    return render(request, "Pharmacy/shop-single.html", context={'product':product})
 
 
 def checkout(request):

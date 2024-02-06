@@ -138,3 +138,11 @@ LOGIN_REDIRECT_URL = "/authentication"
 LOG_PATH = os.path.join(BASE_DIR, "logs")
 # import pyotp
 # OTP = pyotp.TOTP(os.getenv('OTP_KEY'))
+
+EMAIL_BACKEND = "django.core.mail.backends.smpt.EmailBackend"
+EMAIL_HOST = "smtop.gmail.com"
+EMAIL_USE_TLS = True
+EMAIL_PORT = 1025
+EMAIL_HOST_USER = ""
+EMAIL_HOST_PASSWORD  = ""
+

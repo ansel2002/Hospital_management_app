@@ -6,7 +6,10 @@ from .forms import MyLogInFrm, MyRegFrom, ChangeProfileFrm, AppointmentForm
 from .models import Schedule, Contact, Doctor, Appointment
 from django.urls import is_valid_path
 import datetime
-
+from django.core.mail import EmailMessage
+from Hospitalmanagementapp import settings
+from django.conf import settings
+from django.core.mail import send_mail
 
 # from django.core.mail import send_mail
 
@@ -16,6 +19,7 @@ import datetime
 
 def index(request):
     return render(request, 'Patient/index.html')
+
 
 def about(request):
     return render(request, 'Patient/about.html')
@@ -40,22 +44,25 @@ def appointment(request):
 def blog(request):
     return render(request, 'Patient/blog.html')
 
+def Thanks(request):
+    return render(request, 'Patient/thanks.html')
 
 def contact(request):
     if request.method == "POST":
         contact = Contact()
-        name = request.POST.get('name')
-        email = request.POST.get('email')
-        phone = request.POST.get('phone')
-        message = request.POST.get('message')
-        contact.name = name
-        contact.email = email
-        contact.phone = phone
-        contact.message = message
-        contact.save()
-        return render(request, 'thanks.html')
+        message_name = request.POST['message-name']
+        message_email = request.POST['message-email']
+        message = request.POST['message']
+
+        send_mail(
+            message_name,
+            message,
+            message_email
+            ['vikashhshakya@gmail.com']
+ )
+        return render(request, 'thanks.html',{'message_name': message_name})
     else:
-        return render(request, 'Patient/contact.html')
+        return render(request, 'contact.html')
 
 
 def registration(request):
