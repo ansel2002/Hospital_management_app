@@ -10,7 +10,7 @@ administrators, and support staff, ensuring a harmonious and efficient healthcar
 <p>For this project,  the team worked on three different modules ie <br>
 Ardra - Pharmacy module <br>
 Ansel - Doctor module <br>
-vikas - Patient module <br>
+Vikash - Patient module <br>
 FOR ADMIN MODULE, each of the team members worked on the module together.
 </p>
 
